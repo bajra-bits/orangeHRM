@@ -1,0 +1,39 @@
+16:52:53.817 [main] INFO  - Login successful
+17:15:21.367 [main] INFO  - Login successful
+18:22:53.506 [main] ERROR - UsernameRequired
+18:22:54.929 [main] ERROR - UsernameRequired
+18:22:56.261 [main] ERROR - PasswordRequired
+18:22:58.682 [main] INFO  - Login successful
+18:23:01.369 [main] INFO  - Login successful
+18:24:35.620 [main] ERROR - UsernameRequired
+18:24:37.308 [main] ERROR - UsernameRequired
+18:24:38.690 [main] ERROR - PasswordRequired
+18:24:41.261 [main] INFO  - Login successful
+18:29:14.649 [main] ERROR - All fields empty
+18:29:16.174 [main] ERROR - Username Required
+18:29:17.475 [main] ERROR - Password Required
+18:29:19.628 [main] INFO  - Login successful
+18:31:41.840 [main] ERROR - All fields empty
+18:31:43.203 [main] ERROR - Username Required
+18:31:44.536 [main] ERROR - Password Required
+18:31:46.876 [main] INFO  - Login successful
+18:32:33.160 [main] ERROR - Username Required
+18:32:34.577 [main] ERROR - Username Required
+18:32:36.011 [main] ERROR - Password Required
+18:32:38.177 [main] INFO  - Login successful
+18:33:51.677 [main] ERROR - Username Required
+18:34:49.218 [main] ERROR - Username Required
+18:35:53.385 [main] ERROR - Username Required
+18:35:53.405 [main] ERROR - Password Required
+18:44:19.395 [main] ERROR - Invalid credentials
+19:04:21.301 [main] INFO  - Login successful
+19:05:39.118 [main] ERROR - All fields empty
+19:05:44.571 [main] ERROR - Username Required
+19:05:49.942 [main] ERROR - Password Required
+19:05:56.328 [main] ERROR - Invalid credentials
+19:06:03.529 [main] INFO  - Login successful
+19:08:06.262 [main] ERROR - All fields empty
+19:08:10.675 [main] ERROR - Username Required
+19:08:15.005 [main] ERROR - Password Required
+19:08:20.257 [main] ERROR - Invalid credentials
+19:08:26.070 [main] INFO  - Login successful

@@ -27,7 +27,7 @@ public class Login {
     private By username = By.name("username");
     private By password = By.name("password");
     private By loginBtn = By.xpath("//button[@type='submit']");
-    private By error = By.xpath("//div[@class='oxd-alert oxd-alert--error']");
+    private By error = By.xpath("//div[@role='alert']");
     private By emptyField = By.xpath("//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']");
 
     public Login(WebDriver driver, WebDriverWait wait) {
@@ -48,8 +48,10 @@ public class Login {
         Utils.visibilityOfElementLocated(wait, this.password).clear();
     }
 
-    public List<WebElement> getError() {
+    public List<WebElement> getError() throws InterruptedException {
+        Thread.sleep(3000);
         return driver.findElements(error);
+//        return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(error));
     }
 
     public List<WebElement> getEmptyField() {

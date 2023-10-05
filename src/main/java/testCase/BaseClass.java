@@ -9,35 +9,36 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import utils.Driver;
+import utils.ReadConfig;
+
+import java.util.HashMap;
 
 public class BaseClass {
     public static WebDriver driver;
     public static WebDriverWait wait;
     public static Logger logger;
 
-    @Parameters({"type", "waitTime", "url"})
     @BeforeClass
-    public void setup(String type, String waitTime, String url) {
+    public void setup() {
         try {
-            driver = Driver.getWebDriver(Enums.driverType.valueOf(type));
-            wait = Driver.getWebDriverWait(driver, Long.parseLong(waitTime));
-            logger = LogManager.getLogger(BaseClass.class.getName());
-            driver.get(url);
+            ReadConfig read = new ReadConfig();
+            HashMap<String, String> config = read.getDriverConfig();
+
+            driver = Driver.getWebDriver(Enums.driverType.valueOf(config.get("type")));
+            wait = Driver.getWebDriverWait(driver, Long.parseLong(config.get("waitTime")));
+            logger = LogManager.getLogger("OrangeHRM");
+            driver.get(config.get("url"));
             driver.manage().window().maximize();
-        } catch (IllegalArgumentException e) {
-            logger.error("Invalid driver type " + type);
-            throw e;
+        } catch (IllegalArgumentException ex) {
+            logger.error("Invalid driver type" );
+            throw ex;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+            logger.error(ex.getMessage());
+            throw ex;
         }
 
     }
 
-    @Parameters({"sleepTime"})
-    @AfterClass
-    public void teardown(String sleepTime) throws InterruptedException {
-//        Thread.sleep(Long.parseLong(sleepTime));
-//        if(driver != null) {
-//            driver.quit();
-//        }
-    }
 
 }
