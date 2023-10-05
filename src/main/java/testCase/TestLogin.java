@@ -13,7 +13,7 @@ public class TestLogin extends BaseClass {
     @Parameters({"username", "password"})
     @Test
     public void verifyLogin(String username, String password) {
-        Login loginModal = new Login(driver);
+        Login loginModal = new Login(driver,wait );
         boolean isUsernameEmpty = username.trim().isEmpty();
 
         loginModal.login(username, password);

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+
+
+    <test name="Test Login">
+        <parameter name="type" value="CHROME" />
+        <parameter name="waitTime" value="5" />
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
+        <parameter name="sleepTime" value="5" />
+        <parameter name="username" value="admin" />
+        <parameter name="password" value="admin123" />
+        <classes>
+            <class name="testCase.TestLogin" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->

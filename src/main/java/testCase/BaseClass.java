@@ -25,7 +25,8 @@ public class BaseClass {
             driver.get(url);
             driver.manage().window().maximize();
         } catch (IllegalArgumentException e) {
-            System.out.println("Invalid enum string: " + type);
+            logger.error("Invalid driver type " + type);
+            throw e;
         }
 
     }
@@ -33,8 +34,10 @@ public class BaseClass {
     @Parameters({"sleepTime"})
     @AfterClass
     public void teardown(String sleepTime) throws InterruptedException {
-        Thread.sleep(Long.parseLong(sleepTime));
-        driver.quit();
+//        Thread.sleep(Long.parseLong(sleepTime));
+//        if(driver != null) {
+//            driver.quit();
+//        }
     }
 
 }
