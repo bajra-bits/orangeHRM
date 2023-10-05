@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Practice Suite">
+    <test name="Test Basics 1">
+        <parameter name="browser" value="CHROME" />
+        <parameter name="waitTime" value="2" />
+        <parameter name="sleepTime" value="5" />
+        <parameter name="url" value="https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" />
+        <classes>
+            <class name="testCase.BaseClass" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
