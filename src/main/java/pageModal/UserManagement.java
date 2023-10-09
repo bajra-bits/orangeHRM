@@ -30,52 +30,87 @@ public class UserManagement extends Dashboard {
     private By password = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/input[1]");
     private By confirmPassword = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[2]/input[1]");
 
-
-    /*
-     * $x("//div[@class=''and text()='Lisa']")
-     * */
+    /* search */
+    private By searchUsername = By.xpath("//input[@class='oxd-input oxd-input--active' and not(@data-v-636d6b87)]");
+    private By searchBtn = By.xpath("//button[@type='submit']");
+    private By resetBtn = By.xpath("//button[normalize-space()='Reset']");
+    private By records = By.xpath("//div[@class='oxd-table-card']");
+    private By countLabel = By.xpath("//span[@class='oxd-text oxd-text--span' and @data-v-7b563373 and @data-v-0dea79bd]");
+    private By tableBody = By.xpath("//div[@class='oxd-table-body']");
 
     public UserManagement(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
     }
 
-    public void save() {
-        driver.findElement(saveBtn).click();
+    public void searchByUser(String username) {
+        // navigation
+        clickAdmin();
+        WebElement el = Utils.visibilityOfElementLocated(wait, searchUsername);
+        el.clear();
+        el.sendKeys(username);
+        Utils.elementToBeClickable(wait, searchBtn).click();
     }
 
-    public void cancel() {
-        driver.findElement(cancelBtn).click();
-
+    public List<WebElement> getList() {
+        // wait until table visible
+        WebElement table = Utils.visibilityOfElementLocated(wait, tableBody);
+        return table.findElements(records);
     }
 
-    public void populate() throws Exception {
+    public void resetSearch() {
+        // navigation
+        clickAdmin();
+        Utils.elementToBeClickable(wait, resetBtn);
+    }
+
+    public String getCountLabel() {
+        return Utils.visibilityOfElementLocated(wait, countLabel).getText();
+    }
+
+
+    public void clickAdmin() {
         WebElement dropdown;
         this.navToAdmin();
         Utils.elementToBeClickable(wait, userMgmt).click();
         dropdown = Utils.elementToBeClickable(wait, this.dropdown);
         dropdown.findElement(user).click();
+    }
 
+    public void populate(String role, String empName, String status, String username, String password, String confirmPassword) {
+        // navigation
+        clickAdmin();
+
+        // add admin
         Utils.elementToBeClickable(wait, addBtn).click();
 
-        /* interact with input elements */
-        selectOpts(selectEl, 0, "Admin");
+        selectOpts(selectEl, 0, role.trim().length() < 1 ? "Select" : role);
 
-        inputFields(employeeName, "al");
+        // search employee options
+        inputFields(employeeName, empName);
         Utils.visibilityOfElementLocated(wait, listWrapper);
         Utils.invisibilityOf(driver, wait, searchText);
         List<WebElement> dropdownOptions = driver.findElements(listOptions);
-        if(!dropdownOptions.isEmpty()) {
-            for(WebElement el : dropdownOptions) {
+        if (!dropdownOptions.isEmpty()) {
+            for (WebElement el : dropdownOptions) {
                 el.click();
                 break;
             }
         }
 
-        selectOpts(selectEl, 1, "Enabled");
-        inputFields(username, "username");
-        inputFields(password, "Test@1234");
-        inputFields(confirmPassword, "Test@1234");
+        selectOpts(selectEl, 1, status.trim().length() < 1 ? "Select" : status);
+        inputFields(this.username, username);
+        inputFields(this.password, password);
+        inputFields(this.confirmPassword, confirmPassword);
+    }
 
+    public void save() {
+        Utils.elementToBeClickable(wait, saveBtn).click();
+    }
+
+    public void cancel() {
+        // navigation
+        clickAdmin();
+        Utils.elementToBeClickable(wait, cancelBtn).click();
 
     }
 

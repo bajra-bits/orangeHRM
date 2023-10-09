@@ -1,6 +1,7 @@
 package testCase;
 
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 import pageModal.Login;
@@ -46,6 +47,17 @@ public class TestLogin extends BaseClass {
 
         logger.info("Login successful");
 
+    }
+
+    @DataProvider(name = "login")
+    public Object[][] dataSet() {
+        return new Object[][]{
+                {"", ""},
+                {"admin", ""},
+                {"", "admin123"},
+                {"admin", "admin123"},
+
+        };
     }
 
 

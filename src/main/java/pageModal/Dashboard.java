@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import utils.Utils;
 
 public class Dashboard extends BaseModal{
     private By navList = By.xpath("//ul[@class='oxd-main-menu']");
@@ -15,7 +16,7 @@ public class Dashboard extends BaseModal{
     }
 
     public  void navToAdmin() {
-        WebElement navList = wait.until(ExpectedConditions.visibilityOfElementLocated(this.navList));
+        WebElement navList = Utils.visibilityOfElementLocated(wait, this.navList);
         navList.findElement(adminNav).click();
     }
 

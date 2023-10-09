@@ -202,3 +202,131 @@ Session ID: be8873d8237651392a0aa597925efe15
 22:54:08.151 [main] INFO  - Add user cancel success
 22:54:16.852 [main] INFO  - Add user success.
 22:59:16.780 [main] INFO  - Login successful
+23:01:46.209 [main] INFO  - Login successful
+23:01:57.226 [main] INFO  - Add user cancel success
+23:02:06.281 [main] ERROR - Should be at least 5 characters
+23:21:37.636 [main] ERROR - All fields empty
+23:21:42.590 [main] ERROR - Username Required
+23:21:47.472 [main] ERROR - Password Required
+23:21:52.768 [main] ERROR - Invalid credentials
+23:21:58.979 [main] INFO  - Login successful
+23:22:10.749 [main] INFO  - Add user cancel success
+23:22:19.608 [main] ERROR - Should be at least 5 characters
+23:42:35.813 [main] ERROR - All fields empty
+23:42:39.215 [main] ERROR - Password Required
+23:42:43.914 [main] INFO  - Login successful
+23:42:58.430 [main] INFO  - Add user cancel success
+23:43:06.015 [main] ERROR - Should be at least 5 characters
+23:44:09.426 [main] ERROR - All fields empty
+23:44:12.876 [main] ERROR - Password Required
+23:44:17.501 [main] INFO  - Login successful
+23:46:03.108 [main] ERROR - All fields empty
+23:46:07.664 [main] ERROR - Username Required
+23:46:12.336 [main] ERROR - Password Required
+23:46:17.586 [main] ERROR - Invalid credentials
+23:46:23.142 [main] INFO  - Login successful
+23:46:32.915 [main] INFO  - Add user cancel success
+23:46:40.455 [main] ERROR - Should be at least 5 characters
+00:04:35.869 [main] ERROR - All fields empty
+00:04:40.360 [main] ERROR - Username Required
+00:04:44.743 [main] ERROR - Password Required
+00:04:49.858 [main] ERROR - Invalid credentials
+00:04:55.379 [main] INFO  - Login successful
+00:05:04.223 [main] ERROR - Invalid
+00:05:04.240 [main] ERROR - Should be at least 5 characters
+00:06:46.520 [main] INFO  - Login successful
+00:06:55.256 [main] ERROR - Should be at least 5 characters
+00:58:07.953 [main] INFO  - Login successful
+00:58:43.877 [main] INFO  - Login successful
+00:59:54.808 [main] INFO  - Login successful
+01:07:55.818 [main] INFO  - Login successful
+01:09:19.633 [main] INFO  - Login successful
+01:11:38.497 [main] INFO  - Login successful
+01:12:35.704 [main] INFO  - Login successful
+01:12:45.013 [main] INFO  - Add user cancel success
+01:12:52.311 [main] ERROR - Should be at least 5 characters
+01:17:24.093 [main] INFO  - Login successful
+01:17:33.211 [main] INFO  - Add user cancel success
+01:17:40.581 [main] ERROR - Should be at least 5 characters
+01:17:47.104 [main] INFO  - Total items in a list: 44
+01:21:00.031 [main] INFO  - Login successful
+01:21:09.334 [main] INFO  - Add user cancel success
+01:21:17.040 [main] ERROR - Should be at least 5 characters
+01:21:23.530 [main] INFO  - Total items in a list: 45
+01:21:24.315 [main] INFO  - Total items in a list: 1
+01:21:24.378 [main] INFO  - Reset success
+01:22:43.911 [main] INFO  - Login successful
+01:23:14.334 [main] ERROR - Should be at least 5 characters
+01:23:49.298 [main] INFO  - Login successful
+01:23:57.294 [main] INFO  - Add user cancel success
+01:24:04.639 [main] ERROR - Should be at least 5 characters
+01:27:35.519 [main] INFO  - Login successful
+01:27:44.609 [main] INFO  - Add user cancel success
+01:27:56.429 [main] ERROR - Should be at least 5 characters
+01:28:03.325 [main] ERROR - Should be at least 5 characters
+01:28:09.954 [main] INFO  - Total items in a list: 46
+01:28:10.717 [main] INFO  - Total items in a list: 1
+01:33:19.935 [main] INFO  - Login successful
+01:33:29.127 [main] INFO  - Add user cancel success
+01:33:51.475 [main] ERROR - Should be at least 5 characters
+01:33:58.223 [main] ERROR - Should be at least 5 characters
+01:35:53.444 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.134)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [606b50d6b38db4218246338f6c82ebfc, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54061/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 606b50d6b38db4218246338f6c82ebfc
+01:35:53.516 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.134)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [606b50d6b38db4218246338f6c82ebfc, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54061}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54061/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 606b50d6b38db4218246338f6c82ebfc
+01:39:57.786 [main] INFO  - Login successful
+01:40:07.014 [main] INFO  - Add user cancel success
+01:40:27.384 [main] INFO  - Total items in a list: 46
+01:40:31.279 [main] INFO  - Total items in a list: 1
+01:40:49.464 [main] INFO  - Reset success
+01:42:37.742 [main] INFO  - Login successful
+01:42:44.202 [main] INFO  - Total items in a list: 47
+01:42:48.828 [main] INFO  - Total items in a list: 1
+01:43:07.491 [main] INFO  - Reset success
+01:48:31.330 [main] INFO  - Login successful
+01:48:36.349 [main] ERROR - No records found
+01:48:39.916 [main] ERROR - No records found
+01:48:43.515 [main] ERROR - No records found
+01:48:46.848 [main] ERROR - No records found. Reset failed!
+01:51:55.097 [main] INFO  - Login successful
+01:52:00.143 [main] ERROR - No records found
+01:52:03.742 [main] ERROR - No records found
+01:52:07.325 [main] ERROR - No records found
+01:52:10.758 [main] ERROR - No records found. Reset failed!
+01:54:27.811 [main] INFO  - Login successful
+01:54:32.679 [main] ERROR - Reset failed!
+01:58:48.784 [main] INFO  - Login successful
+01:58:54.302 [main] INFO  - Reset success
+02:00:40.681 [main] INFO  - Login successful
+02:00:50.075 [main] INFO  - Add user cancel success
+02:00:57.312 [main] ERROR - Should be at least 5 characters
+02:01:01.201 [main] INFO  - Total items in a list: 48
+02:01:05.409 [main] INFO  - Total items in a list: 1
+02:01:09.451 [main] ERROR - No records found
+02:01:13.309 [main] INFO  - Reset success
+02:06:13.211 [main] INFO  - Login successful
+02:06:22.940 [main] INFO  - Add user success.
+02:06:26.929 [main] INFO  - Total items in a list: 48
+02:06:30.828 [main] INFO  - Total items in a list: 1
+02:06:34.234 [main] INFO  - Total items in a list: 48
+02:06:38.014 [main] INFO  - Reset success
+02:08:32.352 [main] INFO  - Login successful
+02:08:45.045 [main] INFO  - Add user success.
+02:08:49.008 [main] INFO  - Total items in a list: 48
+02:08:52.782 [main] INFO  - Total items in a list: 1
+02:08:56.678 [main] ERROR - No records found
+02:09:00.423 [main] INFO  - Reset success
