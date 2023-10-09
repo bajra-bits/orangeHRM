@@ -173,3 +173,35 @@ Session ID: be8873d8237651392a0aa597925efe15
 19:02:34.492 [main] INFO  - Login successful
 19:02:47.910 [main] INFO  - Add user cancel success
 19:02:59.127 [main] ERROR - Already exists
+22:18:20.098 [main] INFO  - Login successful
+22:18:31.919 [main] INFO  - Add user cancel success
+22:22:49.041 [main] INFO  - Login successful
+22:24:25.043 [main] ERROR - Invalid
+22:24:25.076 [main] ERROR - Already exists
+22:25:38.795 [main] INFO  - Login successful
+22:26:22.543 [main] INFO  - Add user cancel success
+22:26:54.837 [main] ERROR - Invalid
+22:26:54.874 [main] ERROR - Already exists
+22:29:46.785 [main] INFO  - Login successful
+22:29:55.970 [main] INFO  - Add user cancel success
+22:30:02.528 [main] ERROR - Invalid
+22:30:02.553 [main] ERROR - Should be at least 5 characters
+22:31:38.598 [main] INFO  - Login successful
+22:31:52.648 [main] INFO  - Add user cancel success
+22:32:03.929 [main] ERROR - Invalid
+22:32:03.949 [main] ERROR - Already exists
+22:43:16.515 [main] INFO  - Login successful
+22:43:27.397 [main] INFO  - Add user cancel success
+22:43:35.025 [main] ERROR - Invalid
+22:43:35.040 [main] ERROR - Already exists
+22:50:32.309 [main] INFO  - Login successful
+22:50:42.298 [main] INFO  - Add user cancel success
+22:50:50.580 [main] ERROR - Invalid
+22:51:40.351 [main] INFO  - Login successful
+22:53:57.047 [main] INFO  - Login successful
+22:54:08.151 [main] INFO  - Add user cancel success
+22:54:16.852 [main] INFO  - Add user success.
+22:59:16.780 [main] INFO  - Login successful
+23:01:46.209 [main] INFO  - Login successful
+23:01:57.226 [main] INFO  - Add user cancel success
+23:02:06.281 [main] ERROR - Should be at least 5 characters

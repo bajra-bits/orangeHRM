@@ -19,11 +19,13 @@ public class UserManagement extends Dashboard {
     private By cancelBtn = By.xpath("//button[@type='button' and @data-v-10d463b7]");
     private By errors = By.xpath("//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']");
 
-    private By employeeList = By.xpath("div[@class='oxd-autocomplete-wrapper'");
-    private By listBox = By.xpath("div[@role='listbox']");
 
     private By selectEl = By.xpath("//div[@class='oxd-select-text-input']");
     private By employeeName = By.xpath("//input[@placeholder='Type for hints...']");
+    private By listWrapper = By.xpath("//div[@role='listbox']");
+    private By searchText = By.xpath("//div[@role='option' and text()='Searching....']");
+    private By listOptions = By.xpath("//div[@role='option']");
+
     private By username = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[1]/div[1]/div[4]/div[1]/div[2]/input[1]");
     private By password = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/div[2]/input[1]");
     private By confirmPassword = By.xpath("/html[1]/body[1]/div[1]/div[1]/div[2]/div[2]/div[1]/div[1]/form[1]/div[2]/div[1]/div[2]/div[1]/div[2]/input[1]");
@@ -53,27 +55,28 @@ public class UserManagement extends Dashboard {
         dropdown = Utils.elementToBeClickable(wait, this.dropdown);
         dropdown.findElement(user).click();
 
-        /* add user */
         Utils.elementToBeClickable(wait, addBtn).click();
 
         /* interact with input elements */
         selectOpts(selectEl, 0, "Admin");
+
+        inputFields(employeeName, "al");
+        Utils.visibilityOfElementLocated(wait, listWrapper);
+        Utils.invisibilityOf(driver, wait, searchText);
+        List<WebElement> dropdownOptions = driver.findElements(listOptions);
+        if(!dropdownOptions.isEmpty()) {
+            for(WebElement el : dropdownOptions) {
+                el.click();
+                break;
+            }
+        }
+
         selectOpts(selectEl, 1, "Enabled");
         inputFields(username, "username");
         inputFields(password, "Test@1234");
         inputFields(confirmPassword, "Test@1234");
 
-        inputFields(employeeName, "r");
-        Thread.sleep(5000);
 
-        WebElement dropdownDiv = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[@class='oxd-autocomplete-wrapper']//div[@role='listbox']")));
-        java.util.List<WebElement> dropdownOptions = dropdownDiv.findElements(By.xpath("//*[@role='option']"));
-        dropdownOptions.get(0).click();
-
-        /*for (WebElement option : dropdownOptions) {
-            String optionText = option.getText();
-            System.out.println("Dropdown Value: " + optionText);
-        }*/
     }
 
     public List<WebElement> getErrors() {

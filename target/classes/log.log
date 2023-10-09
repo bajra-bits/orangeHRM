@@ -170,3 +170,35 @@ Driver info: org.openqa.selenium.chrome.ChromeDriver
 Command: [be8873d8237651392a0aa597925efe15, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
 Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53624}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53624/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
 Session ID: be8873d8237651392a0aa597925efe15
+19:02:34.492 [main] INFO  - Login successful
+19:02:47.910 [main] INFO  - Add user cancel success
+19:02:59.127 [main] ERROR - Already exists
+22:18:20.098 [main] INFO  - Login successful
+22:18:31.919 [main] INFO  - Add user cancel success
+22:22:49.041 [main] INFO  - Login successful
+22:24:25.043 [main] ERROR - Invalid
+22:24:25.076 [main] ERROR - Already exists
+22:25:38.795 [main] INFO  - Login successful
+22:26:22.543 [main] INFO  - Add user cancel success
+22:26:54.837 [main] ERROR - Invalid
+22:26:54.874 [main] ERROR - Already exists
+22:29:46.785 [main] INFO  - Login successful
+22:29:55.970 [main] INFO  - Add user cancel success
+22:30:02.528 [main] ERROR - Invalid
+22:30:02.553 [main] ERROR - Should be at least 5 characters
+22:31:38.598 [main] INFO  - Login successful
+22:31:52.648 [main] INFO  - Add user cancel success
+22:32:03.929 [main] ERROR - Invalid
+22:32:03.949 [main] ERROR - Already exists
+22:43:16.515 [main] INFO  - Login successful
+22:43:27.397 [main] INFO  - Add user cancel success
+22:43:35.025 [main] ERROR - Invalid
+22:43:35.040 [main] ERROR - Already exists
+22:50:32.309 [main] INFO  - Login successful
+22:50:42.298 [main] INFO  - Add user cancel success
+22:50:50.580 [main] ERROR - Invalid
+22:51:40.351 [main] INFO  - Login successful
+22:53:57.047 [main] INFO  - Login successful
+22:54:08.151 [main] INFO  - Add user cancel success
+22:54:16.852 [main] INFO  - Add user success.
+22:59:16.780 [main] INFO  - Login successful

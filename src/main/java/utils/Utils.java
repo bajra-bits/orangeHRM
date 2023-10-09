@@ -1,6 +1,7 @@
 package utils;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -23,5 +24,13 @@ public class Utils {
     public static WebElement presenceOfNestedElementLocatedBy(WebDriverWait wait, WebElement el,  By locator) {
         return wait.until(ExpectedConditions.presenceOfNestedElementLocatedBy(el, locator));
     }
+
+    public static void invisibilityOf(WebDriver driver, WebDriverWait wait, By el) {
+        wait.until(ExpectedConditions.invisibilityOf(driver.findElement(el)));
+
+    }
+
+
+
 
 }
