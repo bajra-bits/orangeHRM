@@ -24,13 +24,6 @@ public class TestLogin extends BaseClass {
             String errorText = emptyFields.get(0).getText();
             boolean isUsernameEmpty = username.trim().isEmpty();
             if (emptySize == 2) {
-              /*  int index = 0;
-                for (WebElement el : emptyFields) {
-                    String emptyError = index == 0 ? "Username " + el.getText() : "Password " + el.getText();
-                    logger.error(emptyError);
-                    index++;
-                }
-                return;*/
                 logger.error("All fields empty");
                 return;
             }
