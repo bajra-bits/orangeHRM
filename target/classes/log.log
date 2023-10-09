@@ -32,3 +32,108 @@
 19:05:49.942 [main] ERROR - Password Required
 19:05:56.328 [main] ERROR - Invalid credentials
 19:06:03.529 [main] INFO  - Login successful
+19:08:06.262 [main] ERROR - All fields empty
+19:08:10.675 [main] ERROR - Username Required
+19:08:15.005 [main] ERROR - Password Required
+19:08:20.257 [main] ERROR - Invalid credentials
+19:08:26.070 [main] INFO  - Login successful
+19:22:41.619 [main] ERROR - All fields empty
+19:22:48.252 [main] ERROR - Username Required
+19:22:54.885 [main] ERROR - Password Required
+19:22:57.796 [main] ERROR - Invalid credentials
+19:23:05.565 [main] INFO  - Login successful
+10:16:00.109 [main] ERROR - All fields empty
+10:16:04.608 [main] ERROR - Username Required
+10:16:09.317 [main] ERROR - Password Required
+10:16:14.564 [main] ERROR - Invalid credentials
+10:16:20.054 [main] INFO  - Login successful
+10:26:35.664 [main] ERROR - All fields empty
+10:26:40.077 [main] ERROR - Username Required
+10:26:44.459 [main] ERROR - Password Required
+10:26:49.604 [main] ERROR - Invalid credentials
+10:26:55.023 [main] INFO  - Login successful
+11:03:45.802 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.134)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [465e23fb84ef202013c2fcb4b3231d90, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53431}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53431/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 465e23fb84ef202013c2fcb4b3231d90
+11:04:21.628 [main] INFO  - Login successful
+11:10:38.418 [main] INFO  - Login successful
+11:12:10.980 [main] INFO  - Login successful
+11:18:29.729 [main] INFO  - Login successful
+11:19:54.331 [main] INFO  - Login successful
+11:29:16.181 [main] INFO  - Login successful
+11:31:50.851 [main] INFO  - Login successful
+11:34:29.931 [main] INFO  - Login successful
+12:02:37.456 [main] INFO  - Login successful
+12:32:56.831 [main] INFO  - Login successful
+12:47:27.490 [main] INFO  - Login successful
+12:49:54.028 [main] INFO  - Login successful
+12:51:41.678 [main] INFO  - Login successful
+13:01:34.977 [main] INFO  - Login successful
+13:24:19.952 [main] INFO  - Login successful
+13:31:40.288 [main] ERROR - All fields empty
+13:31:45.217 [main] ERROR - Username Required
+13:31:50.076 [main] ERROR - Password Required
+13:31:55.840 [main] ERROR - Invalid credentials
+13:32:02.141 [main] INFO  - Login successful
+13:41:06.896 [main] ERROR - Error communicating with the remote browser. It may have died.
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0b39d860497d668ce98c3e46b4003fa, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62797/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0b39d860497d668ce98c3e46b4003fa
+13:41:06.947 [main] ERROR - Error communicating with the remote browser. It may have died.
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0b39d860497d668ce98c3e46b4003fa, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62797/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0b39d860497d668ce98c3e46b4003fa
+13:41:06.968 [main] ERROR - Error communicating with the remote browser. It may have died.
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0b39d860497d668ce98c3e46b4003fa, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62797/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0b39d860497d668ce98c3e46b4003fa
+13:41:06.997 [main] ERROR - Error communicating with the remote browser. It may have died.
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0b39d860497d668ce98c3e46b4003fa, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62797/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0b39d860497d668ce98c3e46b4003fa
+13:41:07.023 [main] ERROR - Error communicating with the remote browser. It may have died.
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a0b39d860497d668ce98c3e46b4003fa, get [url]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62797}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62797/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a0b39d860497d668ce98c3e46b4003fa
+13:41:41.946 [main] INFO  - Login successful
+13:42:35.496 [main] INFO  - Login successful
+13:43:23.034 [main] INFO  - Login successful
+14:55:32.017 [main] INFO  - Login successful
+15:11:19.956 [main] INFO  - Login successful
+15:13:31.989 [main] INFO  - Login successful
+15:22:13.411 [main] INFO  - Login successful
+15:22:56.052 [main] INFO  - Login successful
+15:24:14.394 [main] INFO  - Login successful
+15:28:53.982 [main] INFO  - Login successful
+15:31:18.735 [main] INFO  - Login successful
+15:37:25.832 [main] INFO  - Login successful
+15:45:50.857 [main] INFO  - Login successful
+15:55:02.401 [main] INFO  - Login successful
+16:10:31.587 [main] INFO  - Login successful
+16:14:27.395 [main] INFO  - Login successful
+16:32:26.224 [main] INFO  - Login successful
+16:36:15.669 [main] INFO  - Login successful
+16:46:51.474 [main] INFO  - Login successful
+16:56:25.137 [main] INFO  - Login successful
+16:57:37.691 [main] INFO  - Login successful

@@ -3,43 +3,49 @@
 <suite name="Practice Suite">
 
 
-    <test name="TL-001">
-        <parameter name="username" value="" />
-        <parameter name="password" value="" />
-        <classes>
-            <class name="testCase.TestLogin" />
-        </classes>
-    </test>
+<!--    <test name="TL-001">-->
+<!--        <parameter name="username" value="" />-->
+<!--        <parameter name="password" value="" />-->
+<!--        <classes>-->
+<!--            <class name="testCase.TestLogin" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="TL-002">
-        <parameter name="username" value="" />
-        <parameter name="password" value="admin123" />
-        <classes>
-            <class name="testCase.TestLogin" />
-        </classes>
-    </test>
+<!--    <test name="TL-002">-->
+<!--        <parameter name="username" value="" />-->
+<!--        <parameter name="password" value="admin123" />-->
+<!--        <classes>-->
+<!--            <class name="testCase.TestLogin" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="TL-003">
-        <parameter name="username" value="admin" />
-        <parameter name="password" value="" />
-        <classes>
-            <class name="testCase.TestLogin" />
-        </classes>
-    </test>
+<!--    <test name="TL-003">-->
+<!--        <parameter name="username" value="admin" />-->
+<!--        <parameter name="password" value="" />-->
+<!--        <classes>-->
+<!--            <class name="testCase.TestLogin" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
-    <test name="TL-004">
-        <parameter name="username" value="mistake" />
-        <parameter name="password" value="mistake" />
-        <classes>
-            <class name="testCase.TestLogin" />
-        </classes>
-    </test>
+<!--    <test name="TL-004">-->
+<!--        <parameter name="username" value="mistake" />-->
+<!--        <parameter name="password" value="mistake" />-->
+<!--        <classes>-->
+<!--            <class name="testCase.TestLogin" />-->
+<!--        </classes>-->
+<!--    </test>-->
 
     <test name="TL-005">
         <parameter name="username" value="admin" />
         <parameter name="password" value="admin123" />
         <classes>
             <class name="testCase.TestLogin" />
+        </classes>
+    </test>
+
+    <test name="TL-006">
+        <classes>
+            <class name="testCase.TestUserManagement" />
         </classes>
     </test>
 

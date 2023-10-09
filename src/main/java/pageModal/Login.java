@@ -9,21 +9,11 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import utils.Utils;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.List;
 
-public class Login {
-    private WebDriver driver;
-    private WebDriverWait wait;
-
-//    @FindBy(name = "username")
-//    private WebElement username;
-//
-//    @FindBy(name = "password")
-//    private WebElement password;
-//
-//    @FindBy(xpath = "//*[contains(text(), 'Login')]")
-//    private WebElement loginBtn;
-
+public class Login extends BaseModal {
     private By username = By.name("username");
     private By password = By.name("password");
     private By loginBtn = By.xpath("//button[@type='submit']");
@@ -31,8 +21,7 @@ public class Login {
     private By emptyField = By.xpath("//span[@class='oxd-text oxd-text--span oxd-input-field-error-message oxd-input-group__message']");
 
     public Login(WebDriver driver, WebDriverWait wait) {
-        this.driver = driver;
-        this.wait = wait;
+        super(driver, wait);
         PageFactory.initElements(driver, this);
     }
 
@@ -51,7 +40,6 @@ public class Login {
     public List<WebElement> getError() throws InterruptedException {
         Thread.sleep(3000);
         return driver.findElements(error);
-//        return wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(error));
     }
 
     public List<WebElement> getEmptyField() {
