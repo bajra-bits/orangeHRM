@@ -515,3 +515,25 @@ Session ID: b8b133f897fe9eb3b8b040a8effe99c1
 12:47:17.253 [main] INFO  - Close Modal
 12:47:17.508 [main] INFO  - Cancel Delete User
 12:47:21.945 [main] INFO  - Delete user success
+12:53:06.563 [main] ERROR - All fields empty
+12:53:11.001 [main] ERROR - Username Required
+12:53:15.357 [main] ERROR - Password Required
+12:53:20.663 [main] ERROR - Invalid credentials
+12:53:26.419 [main] INFO  - Login successful
+12:53:34.610 [main] INFO  - Add user cancel success
+12:53:43.339 [main] INFO  - Add user success.
+12:53:48.720 [main] INFO  - Total items in a list: 40
+12:53:52.967 [main] INFO  - Total items in a list: 1
+12:53:57.533 [main] ERROR - No records found
+12:54:01.998 [main] INFO  - Reset success
+12:54:06.555 [main] INFO  - ****************** Showing records for Admin **********************
+12:54:06.555 [main] INFO  - Total items in a list 40
+12:54:11.061 [main] INFO  - ****************** Showing records for ESS **********************
+12:54:11.061 [main] INFO  - Total items in a list 40
+12:54:15.281 [main] INFO  - ****************** Showing records for Enabled **********************
+12:54:15.281 [main] INFO  - Total items  in a list 40
+12:54:19.464 [main] ERROR - No records found
+12:54:24.044 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+12:54:24.044 [main] INFO  - Total items in a list 1
+12:54:28.946 [main] ERROR - No records found
+12:54:48.025 [main] ERROR - No records found

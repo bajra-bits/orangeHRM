@@ -100,21 +100,21 @@ public class TestUserManagement extends BaseClass {
         logger.info(String.format("Total items  in a list %d",  list.size()));
     }
 
-//    @Test(priority = 6, dataProvider = "search", dataProviderClass = AdminData.class)
-//    public void testSearch(String username, String role, String status) {
-//        List<WebElement> list;
-//        UserManagement userMg = new UserManagement(driver, wait);
-//
-//        userMg.search(username, role, status);
-//        list = userMg.getList();
-//        if (list.isEmpty()) {
-//            logger.error("No records found");
-//            return;
-//        }
-//
-//        logger.info(String.format("********** Showing records for %s:%s:%s ***************", username, role, status));
-//        logger.info(String.format("Total items in a list %d",  list.size()));
-//    }
+    @Test(priority = 6, dataProvider = "search", dataProviderClass = AdminData.class)
+    public void testSearch(String username, String role, String status) {
+        List<WebElement> list;
+        UserManagement userMg = new UserManagement(driver, wait);
+
+        userMg.search(username, role, status);
+        list = userMg.getList();
+        if (list.isEmpty()) {
+            logger.error("No records found");
+            return;
+        }
+
+        logger.info(String.format("********** Showing records for %s:%s:%s ***************", username, role, status));
+        logger.info(String.format("Total items in a list %d",  list.size()));
+    }
 
 
     @Test(priority = 7, dataProvider = "userToDelete", dataProviderClass = AdminData.class)
@@ -153,7 +153,4 @@ public class TestUserManagement extends BaseClass {
 
         logger.info("Delete user success");
     }
-
-
-
 }

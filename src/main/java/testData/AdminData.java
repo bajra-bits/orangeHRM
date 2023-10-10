@@ -17,7 +17,7 @@ public class AdminData {
     public static Object[][] admin() {
         // Define your test data here as a 2D array
         return new Object[][]{
-                {"Admin", "Odis  Adalwin", "Enabled", "newuser1", "Test@1234", "Test@1234"},
+                {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "Test@1234", "Test@1234"},
                 // Add more test data as needed
         };
     }
@@ -26,7 +26,7 @@ public class AdminData {
     public static Object[][] searchUser() {
         return new Object[][]{
                 {""},
-                {"newuser"},
+                {"newuser2"},
                 {"invaliduser"}
         };
 
@@ -61,8 +61,8 @@ public class AdminData {
     @DataProvider(name = "userToDelete")
     public static Object[][] userToDelete() {
         return new Object[][]{
-                {"User"},
-                {"smityh"}
+                {"newUser1"},
+                {"newuser2"}
         };
     }
 

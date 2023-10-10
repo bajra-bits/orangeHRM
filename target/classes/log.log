@@ -498,3 +498,20 @@ Session ID: b8b133f897fe9eb3b8b040a8effe99c1
 12:40:48.512 [main] ERROR - No records found
 12:40:52.881 [main] INFO  - Cancel Delete User
 12:40:56.770 [main] INFO  - Delete user success
+12:46:19.477 [main] INFO  - Login successful
+12:46:27.663 [main] INFO  - Add user cancel success
+12:46:36.926 [main] INFO  - Add user success.
+12:46:41.587 [main] INFO  - Total items in a list: 38
+12:46:46.170 [main] ERROR - No records found
+12:46:50.436 [main] ERROR - No records found
+12:46:54.815 [main] INFO  - Reset success
+12:46:59.030 [main] INFO  - ****************** Showing records for Admin **********************
+12:46:59.030 [main] INFO  - Total items in a list 38
+12:47:03.616 [main] INFO  - ****************** Showing records for ESS **********************
+12:47:03.616 [main] INFO  - Total items in a list 30
+12:47:08.256 [main] INFO  - ****************** Showing records for Enabled **********************
+12:47:08.256 [main] INFO  - Total items  in a list 38
+12:47:12.498 [main] ERROR - No records found
+12:47:17.253 [main] INFO  - Close Modal
+12:47:17.508 [main] INFO  - Cancel Delete User
+12:47:21.945 [main] INFO  - Delete user success
