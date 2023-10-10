@@ -12,6 +12,7 @@ public class TestUserManagement extends BaseClass {
     @Test()
     public void testAddUserCancel() {
         UserManagement userMg = new UserManagement(driver, wait);
+        userMg.addAdmin();
         userMg.cancel();
         logger.info("Add user cancel success");
     }
@@ -19,6 +20,7 @@ public class TestUserManagement extends BaseClass {
     @Test(priority = 1, dataProvider = "admin", dataProviderClass = AdminData.class)
     public void testAddUser(String role, String empName, String status, String username, String password, String confirmPassword) throws Exception {
         UserManagement userMg = new UserManagement(driver, wait);
+        userMg.addAdmin();
         userMg.populate(role, empName, status, username, password, confirmPassword);
         Thread.sleep(1000);
         userMg.save();
@@ -98,20 +100,60 @@ public class TestUserManagement extends BaseClass {
         logger.info(String.format("Total items  in a list %d",  list.size()));
     }
 
-    @Test(priority = 6, dataProvider = "search", dataProviderClass = AdminData.class)
-    public void testSearch(String username, String role, String status) {
+//    @Test(priority = 6, dataProvider = "search", dataProviderClass = AdminData.class)
+//    public void testSearch(String username, String role, String status) {
+//        List<WebElement> list;
+//        UserManagement userMg = new UserManagement(driver, wait);
+//
+//        userMg.search(username, role, status);
+//        list = userMg.getList();
+//        if (list.isEmpty()) {
+//            logger.error("No records found");
+//            return;
+//        }
+//
+//        logger.info(String.format("********** Showing records for %s:%s:%s ***************", username, role, status));
+//        logger.info(String.format("Total items in a list %d",  list.size()));
+//    }
+
+
+    @Test(priority = 7, dataProvider = "userToDelete", dataProviderClass = AdminData.class)
+    public void deleteUser(String username) {
         List<WebElement> list;
         UserManagement userMg = new UserManagement(driver, wait);
 
-        userMg.search(username, role, status);
+        userMg.searchByUser(username);
         list = userMg.getList();
         if (list.isEmpty()) {
             logger.error("No records found");
             return;
         }
 
-        logger.info(String.format("********** Showing records for %s:%s:%s ***************", username, role, status));
-        logger.info(String.format("Total items in a list %d",  list.size()));
+        // Test modal close
+        userMg.deleteUser();
+        userMg.closeModal();
+        logger.info("Close Modal");
+
+
+
+        // Test modCancelBtn
+        userMg.deleteUser();
+        userMg.modCancelBtn();
+        logger.info("Cancel Delete User");
+
+        // Delete user
+        userMg.deleteUser();
+        userMg.modAcceptBtn();
+
+        list = userMg.getList();
+        if (!list.isEmpty()) {
+            logger.error("Delete user failed");
+            return;
+        }
+
+        logger.info("Delete user success");
     }
+
+
 
 }

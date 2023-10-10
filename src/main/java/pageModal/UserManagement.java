@@ -40,9 +40,40 @@ public class UserManagement extends Dashboard {
     private By countLabel = By.xpath("//span[@class='oxd-text oxd-text--span' and @data-v-7b563373 and @data-v-0dea79bd]");
     private By tableBody = By.xpath("//div[@class='oxd-table-body']");
 
+    /* icons */
+    private By trashIcon = By.xpath("//*[@class='oxd-icon bi-trash']");
+    private By editIcon = By.xpath("//*[@class='oxd-icon bi-pencil-fill']");
+
+    /* modal */
+    private By modal = By.xpath("//div[@role='document']");
+    private By modCloseBtn = By.xpath("//button[@data-v-a11b6690]");
+    private By modCancelBtn = By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--text orangehrm-button-margin']");
+    private By modalAcceptBtn = By.xpath("//button[@class='oxd-button oxd-button--medium oxd-button--label-danger orangehrm-button-margin']");
+
 
     public UserManagement(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
+    }
+
+    public void deleteUser() {
+        Utils.elementToBeClickable(wait, trashIcon).click();
+        Utils.visibilityOfElementLocated(wait, modal);
+    }
+
+    public void editUser() {
+        Utils.elementToBeClickable(wait, editIcon).click();
+    }
+
+    public void closeModal() {
+        Utils.elementToBeClickable(wait, modCloseBtn).click();
+    }
+
+    public void modCancelBtn() {
+        Utils.elementToBeClickable(wait, modCancelBtn).click();
+    }
+
+    public void modAcceptBtn() {
+        Utils.elementToBeClickable(wait, modalAcceptBtn).click();
     }
 
     public void searchByUser(String username) {
@@ -54,7 +85,7 @@ public class UserManagement extends Dashboard {
         Utils.elementToBeClickable(wait, searchBtn).click();
     }
 
-    public void searchByRole(String role ) {
+    public void searchByRole(String role) {
         clickAdmin();
         selectDropdown(searchDropdown, 0, Utils.getOptionValue(role));
         Utils.elementToBeClickable(wait, searchBtn).click();
@@ -102,33 +133,48 @@ public class UserManagement extends Dashboard {
         dropdown.findElement(user).click();
     }
 
-
-
-    public void populate(String role, String empName, String status, String username, String password, String confirmPassword) {
+    public void addAdmin() {
         // navigation
         clickAdmin();
-
         // add admin
         Utils.elementToBeClickable(wait, addBtn).click();
+    }
 
-        selectDropdown(selectEl, 0, Utils.getOptionValue(role));
+    public void populate(String role, String empName, String status, String username, String password, String confirmPassword) {
+        if (!role.isEmpty()) {
+            selectDropdown(selectEl, 0, Utils.getOptionValue(role));
 
-        // search employee options
-        inputFields(employeeName, empName);
-        Utils.visibilityOfElementLocated(wait, listWrapper);
-        Utils.invisibilityOf(driver, wait, searchText);
-        List<WebElement> dropdownOptions = driver.findElements(listOptions);
-        if (!dropdownOptions.isEmpty()) {
-            for (WebElement el : dropdownOptions) {
-                el.click();
-                break;
+        }
+
+        if (!empName.isEmpty()) {
+            // search employee options
+            inputFields(employeeName, empName.substring(0,1));
+            Utils.visibilityOfElementLocated(wait, listWrapper);
+            Utils.invisibilityOf(driver, wait, searchText);
+            List<WebElement> dropdownOptions = driver.findElements(listOptions);
+            if (!dropdownOptions.isEmpty()) {
+                for (WebElement el : dropdownOptions) {
+                    el.click();
+                    break;
+                }
             }
         }
 
-        selectDropdown(selectEl, 1, Utils.getOptionValue(status));
-        inputFields(this.username, username);
-        inputFields(this.password, password);
-        inputFields(this.confirmPassword, confirmPassword);
+        if (!status.isEmpty()) {
+            selectDropdown(selectEl, 1, Utils.getOptionValue(status));
+        }
+
+        if (!username.isEmpty()) {
+            inputFields(this.username, username);
+        }
+
+        if (!password.isEmpty()) {
+            inputFields(this.password, password);
+        }
+
+        if (!confirmPassword.isEmpty()) {
+            inputFields(this.confirmPassword, confirmPassword);
+        }
     }
 
     public void save() {
@@ -136,10 +182,6 @@ public class UserManagement extends Dashboard {
     }
 
     public void cancel() {
-        // navigation
-        clickAdmin();
-        // add admin
-        Utils.elementToBeClickable(wait, addBtn).click();
         Utils.elementToBeClickable(wait, cancelBtn).click();
 
     }

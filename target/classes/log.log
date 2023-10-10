@@ -447,3 +447,54 @@ Session ID: b8b133f897fe9eb3b8b040a8effe99c1
 11:11:05.697 [main] INFO  - Total items in a list 1
 11:13:40.530 [main] INFO  - Login successful
 11:13:48.109 [main] INFO  - Add user cancel success
+11:15:10.135 [main] INFO  - Login successful
+11:15:21.916 [main] INFO  - Add user cancel success
+11:40:16.367 [main] INFO  - Login successful
+11:40:23.990 [main] INFO  - Add user cancel success
+11:40:32.840 [main] ERROR - Invalid
+11:40:37.235 [main] INFO  - Total items in a list: 19
+11:40:41.337 [main] ERROR - No records found
+11:40:45.652 [main] ERROR - No records found
+11:40:49.766 [main] INFO  - Reset success
+11:40:54.084 [main] INFO  - ****************** Showing records for Admin **********************
+11:40:54.084 [main] INFO  - Total items in a list 6
+11:40:58.633 [main] INFO  - ****************** Showing records for ESS **********************
+11:40:58.633 [main] INFO  - Total items in a list 16
+11:41:03.184 [main] INFO  - ****************** Showing records for Enabled **********************
+11:41:03.184 [main] INFO  - Total items  in a list 15
+11:41:07.764 [main] INFO  - ****************** Showing records for Disabled **********************
+11:41:07.764 [main] INFO  - Total items  in a list 3
+11:41:12.396 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+11:41:12.396 [main] INFO  - Total items in a list 1
+11:41:17.106 [main] ERROR - No records found
+11:55:10.896 [main] INFO  - Login successful
+11:55:32.019 [main] ERROR - No records found
+11:58:51.417 [main] INFO  - Login successful
+11:58:58.081 [main] ERROR - No records found
+11:59:02.317 [main] ERROR - No records found
+12:00:50.563 [main] INFO  - Login successful
+12:00:58.100 [main] ERROR - No records found
+12:32:22.549 [main] INFO  - Login successful
+12:32:29.003 [main] ERROR - No records found
+12:32:38.134 [main] INFO  - Delete user success
+12:34:50.139 [main] INFO  - Login successful
+12:34:56.673 [main] ERROR - No records found
+12:35:00.935 [main] ERROR - No records found
+12:35:59.014 [main] INFO  - Login successful
+12:36:05.581 [main] ERROR - No records found
+12:36:10.163 [main] INFO  - Close Modal
+12:36:10.892 [main] INFO  - Cancel Delete User
+12:37:18.609 [main] INFO  - Login successful
+12:37:24.984 [main] ERROR - No records found
+12:37:29.422 [main] INFO  - Close Modal
+12:37:32.136 [main] INFO  - Cancel Delete User
+12:38:26.035 [main] INFO  - Login successful
+12:38:32.356 [main] ERROR - No records found
+12:38:36.764 [main] ERROR - No records found
+12:39:37.172 [main] INFO  - Login successful
+12:39:43.778 [main] ERROR - No records found
+12:39:48.524 [main] INFO  - Close Modal
+12:40:41.973 [main] INFO  - Login successful
+12:40:48.512 [main] ERROR - No records found
+12:40:52.881 [main] INFO  - Cancel Delete User
+12:40:56.770 [main] INFO  - Delete user success
