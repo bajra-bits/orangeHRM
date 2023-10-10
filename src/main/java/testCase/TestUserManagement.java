@@ -65,4 +65,53 @@ public class TestUserManagement extends BaseClass {
         logger.info("Reset success");
     }
 
+    @Test(priority = 4, dataProvider = "role", dataProviderClass = AdminData.class)
+    public void testSearchByRole(String role) {
+        List<WebElement> list;
+        UserManagement userMg = new UserManagement(driver, wait);
+
+        userMg.searchByRole(role);
+        list = userMg.getList();
+        if (list.isEmpty()) {
+            logger.error("No records found");
+            return;
+        }
+
+        logger.info(String.format("****************** Showing records for %s **********************", role));
+
+        logger.info(String.format("Total items in a list %d",  list.size()));
+    }
+
+    @Test(priority = 5, dataProvider = "status", dataProviderClass = AdminData.class)
+    public void testSearchByStatus(String status) {
+        List<WebElement> list;
+        UserManagement userMg = new UserManagement(driver, wait);
+
+        userMg.searchByStatus(status);
+        list = userMg.getList();
+        if (list.isEmpty()) {
+            logger.error("No records found");
+            return;
+        }
+
+        logger.info(String.format("****************** Showing records for %s **********************", status));
+        logger.info(String.format("Total items  in a list %d",  list.size()));
+    }
+
+    @Test(priority = 6, dataProvider = "search", dataProviderClass = AdminData.class)
+    public void testSearch(String username, String role, String status) {
+        List<WebElement> list;
+        UserManagement userMg = new UserManagement(driver, wait);
+
+        userMg.search(username, role, status);
+        list = userMg.getList();
+        if (list.isEmpty()) {
+            logger.error("No records found");
+            return;
+        }
+
+        logger.info(String.format("********** Showing records for %s:%s:%s ***************", username, role, status));
+        logger.info(String.format("Total items in a list %d",  list.size()));
+    }
+
 }

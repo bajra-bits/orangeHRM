@@ -31,4 +31,33 @@ public class AdminData {
         };
 
     }
+
+    @DataProvider(name = "role")
+    public static Object[][] searchByRole() {
+        return new Object[][]{
+                {"Admin"},
+                {"ESS"}
+        };
+
+    }
+
+    @DataProvider(name = "status")
+    public static Object[][] searchByStatus() {
+        return new Object[][]{
+                {"Enabled"},
+                {"Disabled"}
+        };
+
+    }
+
+    @DataProvider(name = "search")
+    public static Object[][] search() {
+        return new Object[][]{
+                {"admin", "Admin", "Enabled"},
+                {"user307", "ESS", "Disabled"}
+        };
+
+    }
+
+
 }

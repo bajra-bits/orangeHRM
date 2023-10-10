@@ -1,5 +1,6 @@
 package utils;
 
+import constants.Variables;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -27,7 +28,10 @@ public class Utils {
 
     public static void invisibilityOf(WebDriver driver, WebDriverWait wait, By el) {
         wait.until(ExpectedConditions.invisibilityOf(driver.findElement(el)));
+    }
 
+    public static String getOptionValue(String role) {
+        return role.trim().length() < 1 ? Variables.optionEmpty : role;
     }
 
 

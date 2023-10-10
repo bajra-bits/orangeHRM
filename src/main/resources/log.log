@@ -337,3 +337,111 @@ Session ID: 606b50d6b38db4218246338f6c82ebfc
 02:11:11.775 [main] INFO  - Total items in a list: 1
 02:11:15.682 [main] ERROR - No records found
 02:11:19.378 [main] INFO  - Reset success
+03:42:54.085 [main] INFO  - Login successful
+03:43:06.048 [main] INFO  - Add user cancel success
+03:43:29.170 [main] INFO  - Total items in a list: 9
+03:43:33.930 [main] INFO  - Total items in a list: 9
+03:43:39.074 [main] ERROR - No records found
+03:43:44.371 [main] INFO  - Reset success
+10:22:11.909 [main] INFO  - Login successful
+10:22:18.230 [main] INFO  - Total items for role  in a list 42
+10:22:22.391 [main] INFO  - Total items for role Enabled in a list 42
+10:22:26.601 [main] INFO  - Total items for role Disabled in a list 42
+10:28:56.340 [main] INFO  - Login successful
+10:29:02.521 [main] INFO  - Total items for role Empty role in a list 42
+10:29:06.912 [main] INFO  - Total items for role Admin in a list 42
+10:29:11.066 [main] INFO  - Total items for role ESS in a list 42
+10:29:15.565 [main] INFO  - Total items for role  in a list 42
+10:29:19.702 [main] INFO  - Total items for role Enabled in a list 42
+10:29:24.221 [main] INFO  - Total items for role Disabled in a list 42
+10:32:24.833 [main] INFO  - Login successful
+10:32:30.965 [main] INFO  - Total items for  All role in a list 7
+10:32:35.246 [main] INFO  - Total items for  Admin role in a list 7
+10:32:39.214 [main] INFO  - Total items for  ESS role in a list 7
+10:32:43.459 [main] INFO  - Total items for  All status in a list 42
+10:32:47.382 [main] INFO  - Total items for  Enabled status in a list 42
+10:32:51.276 [main] INFO  - Total items for  Disabled status in a list 42
+10:34:56.612 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8b133f897fe9eb3b8b040a8effe99c1, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8b133f897fe9eb3b8b040a8effe99c1
+10:34:56.683 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b8b133f897fe9eb3b8b040a8effe99c1, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54984}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54984/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b8b133f897fe9eb3b8b040a8effe99c1
+10:36:54.150 [main] INFO  - Login successful
+10:37:04.082 [main] INFO  - Total items for  Admin role in a list 42
+10:37:08.411 [main] INFO  - Total items for  ESS role in a list 35
+10:37:16.409 [main] INFO  - Total items for  Enabled status in a list 42
+10:37:20.326 [main] ERROR - No records found
+10:41:46.457 [main] INFO  - Login successful
+10:41:56.320 [main] INFO  - Total items for  Admin role in a list 7
+10:42:00.393 [main] INFO  - Total items for  ESS role in a list 36
+10:42:08.220 [main] INFO  - Total items for  Enabled status in a list 43
+10:42:12.120 [main] ERROR - No records found
+10:45:38.042 [main] INFO  - Login successful
+10:45:48.528 [main] INFO  - Total items for  Admin role in a list 7
+10:45:52.525 [main] INFO  - Total items for  ESS role in a list 29
+10:45:59.810 [main] INFO  - Total items for  Enabled status in a list 36
+10:46:03.899 [main] ERROR - No records found
+10:50:28.486 [main] INFO  - Login successful
+10:50:38.626 [main] INFO  - Total items for  Admin role in a list 2
+10:50:43.053 [main] ERROR - No records found
+10:50:50.866 [main] INFO  - Total items for  Enabled status in a list 2
+10:50:55.218 [main] ERROR - No records found
+10:52:07.192 [main] INFO  - Login successful
+10:52:17.029 [main] INFO  - Total items for  Admin role in a list 2
+10:52:21.367 [main] ERROR - No records found
+10:52:28.695 [main] INFO  - Total items for  Enabled status in a list 2
+10:52:32.765 [main] ERROR - No records found
+11:04:58.002 [main] INFO  - Login successful
+11:05:04.296 [main] INFO  - ****************** Showing records for %s **********************
+11:05:04.296 [main] INFO  - Total items in a list 2
+11:05:08.395 [main] INFO  - ****************** Showing records for %s **********************
+11:05:08.395 [main] INFO  - Total items in a list 13
+11:05:13.233 [main] INFO  - ****************** Showing records for %s **********************
+11:05:13.233 [main] INFO  - Total items  in a list 2
+11:05:17.616 [main] INFO  - ****************** Showing records for %s **********************
+11:05:17.616 [main] INFO  - Total items  in a list 12
+11:07:59.396 [main] INFO  - Login successful
+11:08:06.142 [main] INFO  - ****************** Showing records for Admin **********************
+11:08:06.143 [main] INFO  - Total items in a list 2
+11:08:10.774 [main] INFO  - ****************** Showing records for ESS **********************
+11:08:10.775 [main] INFO  - Total items in a list 10
+11:08:15.098 [main] INFO  - ****************** Showing records for Enabled **********************
+11:08:15.099 [main] INFO  - Total items  in a list 2
+11:08:19.463 [main] INFO  - ****************** Showing records for Disabled **********************
+11:08:19.463 [main] INFO  - Total items  in a list 10
+11:08:24.045 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+11:08:24.045 [main] INFO  - Total items in a list 1
+11:08:28.683 [main] INFO  - ********** Showing records for user307:ESS:Disabled ***************
+11:08:28.683 [main] INFO  - Total items in a list 1
+11:10:03.243 [main] INFO  - Login successful
+11:10:08.693 [main] INFO  - Add user cancel success
+11:10:17.309 [main] ERROR - Invalid
+11:10:21.621 [main] INFO  - Total items in a list: 12
+11:10:25.458 [main] ERROR - No records found
+11:10:29.358 [main] ERROR - No records found
+11:10:37.666 [main] INFO  - Reset success
+11:10:44.284 [main] INFO  - ****************** Showing records for Admin **********************
+11:10:44.284 [main] INFO  - Total items in a list 2
+11:10:48.415 [main] INFO  - ****************** Showing records for ESS **********************
+11:10:48.415 [main] INFO  - Total items in a list 10
+11:10:52.615 [main] INFO  - ****************** Showing records for Enabled **********************
+11:10:52.615 [main] INFO  - Total items  in a list 12
+11:10:56.797 [main] INFO  - ****************** Showing records for Disabled **********************
+11:10:56.798 [main] INFO  - Total items  in a list 10
+11:11:01.244 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+11:11:01.244 [main] INFO  - Total items in a list 1
+11:11:05.697 [main] INFO  - ********** Showing records for user307:ESS:Disabled ***************
+11:11:05.697 [main] INFO  - Total items in a list 1

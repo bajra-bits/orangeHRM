@@ -1,5 +1,6 @@
 package pageModal;
 
+import constants.Variables;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -32,11 +33,13 @@ public class UserManagement extends Dashboard {
 
     /* search */
     private By searchUsername = By.xpath("//input[@class='oxd-input oxd-input--active' and not(@data-v-636d6b87)]");
+    private By searchDropdown = By.xpath("//div[@class='oxd-select-text oxd-select-text--active']");
     private By searchBtn = By.xpath("//button[@type='submit']");
     private By resetBtn = By.xpath("//button[normalize-space()='Reset']");
     private By records = By.xpath("//div[@class='oxd-table-card']");
     private By countLabel = By.xpath("//span[@class='oxd-text oxd-text--span' and @data-v-7b563373 and @data-v-0dea79bd]");
     private By tableBody = By.xpath("//div[@class='oxd-table-body']");
+
 
     public UserManagement(WebDriver driver, WebDriverWait wait) {
         super(driver, wait);
@@ -48,6 +51,29 @@ public class UserManagement extends Dashboard {
         WebElement el = Utils.visibilityOfElementLocated(wait, searchUsername);
         el.clear();
         el.sendKeys(username);
+        Utils.elementToBeClickable(wait, searchBtn).click();
+    }
+
+    public void searchByRole(String role ) {
+        clickAdmin();
+        selectDropdown(searchDropdown, 0, Utils.getOptionValue(role));
+        Utils.elementToBeClickable(wait, searchBtn).click();
+    }
+
+    public void searchByStatus(String status) {
+        clickAdmin();
+        selectDropdown(searchDropdown, 1, Utils.getOptionValue(status));
+        Utils.elementToBeClickable(wait, searchBtn).click();
+
+    }
+
+    public void search(String username, String role, String status) {
+        clickAdmin();
+        WebElement el = Utils.visibilityOfElementLocated(wait, searchUsername);
+        el.clear();
+        el.sendKeys(username);
+        selectDropdown(searchDropdown, 0, Utils.getOptionValue(role));
+        selectDropdown(searchDropdown, 1, Utils.getOptionValue(status));
         Utils.elementToBeClickable(wait, searchBtn).click();
     }
 
@@ -76,6 +102,8 @@ public class UserManagement extends Dashboard {
         dropdown.findElement(user).click();
     }
 
+
+
     public void populate(String role, String empName, String status, String username, String password, String confirmPassword) {
         // navigation
         clickAdmin();
@@ -83,7 +111,7 @@ public class UserManagement extends Dashboard {
         // add admin
         Utils.elementToBeClickable(wait, addBtn).click();
 
-        selectOpts(selectEl, 0, role.trim().length() < 1 ? "Select" : role);
+        selectDropdown(selectEl, 0, Utils.getOptionValue(role));
 
         // search employee options
         inputFields(employeeName, empName);
@@ -97,7 +125,7 @@ public class UserManagement extends Dashboard {
             }
         }
 
-        selectOpts(selectEl, 1, status.trim().length() < 1 ? "Select" : status);
+        selectDropdown(selectEl, 1, Utils.getOptionValue(status));
         inputFields(this.username, username);
         inputFields(this.password, password);
         inputFields(this.confirmPassword, confirmPassword);
@@ -125,12 +153,13 @@ public class UserManagement extends Dashboard {
         el.sendKeys(text);
     }
 
-    public void selectOpts(By locator, int index, String value) {
+    public void selectDropdown(By locator, int index, String value) {
         /* select option field */
-        WebElement optsEl = Utils.visibilityOfAllElementsLocatedBy(wait, locator).get(index);
-        optsEl.click();
-        Utils.presenceOfNestedElementLocatedBy(wait, optsEl, By.xpath(String.format("//*[@role='option']//*[contains(text(),%s)]", value))).click();
-
+        WebElement dropdown = Utils.visibilityOfAllElementsLocatedBy(wait, locator).get(index);
+        dropdown.click();
+//        System.out.println(dropdown.getAttribute("innerHTML"));
+        dropdown.findElement(By.xpath(String.format("//*[@role='option']//*[contains(text(),'%s')]", value))).click();
+//        Utils.presenceOfNestedElementLocatedBy(wait, dropdown, By.xpath(String.format("//*[@role='option']//*[contains(text(),%s)]", value))).click();
     }
 
 
