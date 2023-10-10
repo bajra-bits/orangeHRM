@@ -426,3 +426,24 @@ Session ID: b8b133f897fe9eb3b8b040a8effe99c1
 11:08:24.045 [main] INFO  - Total items in a list 1
 11:08:28.683 [main] INFO  - ********** Showing records for user307:ESS:Disabled ***************
 11:08:28.683 [main] INFO  - Total items in a list 1
+11:10:03.243 [main] INFO  - Login successful
+11:10:08.693 [main] INFO  - Add user cancel success
+11:10:17.309 [main] ERROR - Invalid
+11:10:21.621 [main] INFO  - Total items in a list: 12
+11:10:25.458 [main] ERROR - No records found
+11:10:29.358 [main] ERROR - No records found
+11:10:37.666 [main] INFO  - Reset success
+11:10:44.284 [main] INFO  - ****************** Showing records for Admin **********************
+11:10:44.284 [main] INFO  - Total items in a list 2
+11:10:48.415 [main] INFO  - ****************** Showing records for ESS **********************
+11:10:48.415 [main] INFO  - Total items in a list 10
+11:10:52.615 [main] INFO  - ****************** Showing records for Enabled **********************
+11:10:52.615 [main] INFO  - Total items  in a list 12
+11:10:56.797 [main] INFO  - ****************** Showing records for Disabled **********************
+11:10:56.798 [main] INFO  - Total items  in a list 10
+11:11:01.244 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+11:11:01.244 [main] INFO  - Total items in a list 1
+11:11:05.697 [main] INFO  - ********** Showing records for user307:ESS:Disabled ***************
+11:11:05.697 [main] INFO  - Total items in a list 1
+11:13:40.530 [main] INFO  - Login successful
+11:13:48.109 [main] INFO  - Add user cancel success

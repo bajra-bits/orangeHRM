@@ -445,3 +445,7 @@ Session ID: b8b133f897fe9eb3b8b040a8effe99c1
 11:11:01.244 [main] INFO  - Total items in a list 1
 11:11:05.697 [main] INFO  - ********** Showing records for user307:ESS:Disabled ***************
 11:11:05.697 [main] INFO  - Total items in a list 1
+11:13:40.530 [main] INFO  - Login successful
+11:13:48.109 [main] INFO  - Add user cancel success
+11:15:10.135 [main] INFO  - Login successful
+11:15:21.916 [main] INFO  - Add user cancel success

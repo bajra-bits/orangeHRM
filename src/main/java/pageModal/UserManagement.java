@@ -138,6 +138,8 @@ public class UserManagement extends Dashboard {
     public void cancel() {
         // navigation
         clickAdmin();
+        // add admin
+        Utils.elementToBeClickable(wait, addBtn).click();
         Utils.elementToBeClickable(wait, cancelBtn).click();
 
     }
