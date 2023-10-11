@@ -55,7 +55,8 @@ public class UserManagement extends Dashboard {
         super(driver, wait);
     }
 
-    public void deleteUser() {
+    public void deleteUser() throws InterruptedException {
+        Thread.sleep(1000);
         Utils.elementToBeClickable(wait, trashIcon).click();
         Utils.visibilityOfElementLocated(wait, modal);
     }
@@ -165,21 +166,19 @@ public class UserManagement extends Dashboard {
 
         if (!username.isEmpty()) {
             inputFields(this.username, username);
-            Thread.sleep(1000);
         }
 
         if (!password.isEmpty()) {
             inputFields(this.password, password);
-            Thread.sleep(1000);
         }
 
         if (!confirmPassword.isEmpty()) {
             inputFields(this.confirmPassword, confirmPassword);
-            Thread.sleep(1000);
         }
     }
 
-    public void save() {
+    public void save() throws InterruptedException {
+        Thread.sleep(3500);
         Utils.elementToBeClickable(wait, saveBtn).click();
     }
 
@@ -188,7 +187,8 @@ public class UserManagement extends Dashboard {
 
     }
 
-    public List<WebElement> getErrors() {
+    public List<WebElement> getErrors() throws InterruptedException {
+        Thread.sleep(1500);
         return driver.findElements(errors);
     }
 

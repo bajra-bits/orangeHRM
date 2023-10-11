@@ -5,17 +5,18 @@ import org.testng.annotations.DataProvider;
 public class AdminData {
     @DataProvider(name = "admin")
     public static Object[][] admin() {
-        // Define your test data here as a 2D array
         return new Object[][]{
                 {"", "", "", "", "", ""},
                 {"Admin", "", "", "", "", ""},
                 {"Admin", "Odis  Adalwin", "", "", "", ""},
                 {"Admin", "Odis  Adalwin", "Enabled", "", "", ""},
                 {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "", ""},
+                {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "Test", ""},
+                {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "Testagain", ""},
                 {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "Test@1234", ""},
                 {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "Test@1234", "Test@123"},
-                {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "Test@1234", "Test@1234"},
-                {"Admin", "Odis  Adalwin", "Enabled", "newuser2", "Test@1234", "Test@1234"},
+                {"ESS", "Odis  Adalwin", "Enabled", "newuser3", "Test@1234", "Test@1234"},
+                {"ESS", "Odis  Adalwin", "Enabled", "newuser3", "Test@1234", "Test@1234"},
 
                 // Add more test data as needed
         };
@@ -60,8 +61,8 @@ public class AdminData {
     @DataProvider(name = "userToDelete")
     public static Object[][] userToDelete() {
         return new Object[][]{
-                {"newUser1"},
-                {"newuser2"}
+                {"invaliduser"},
+                {"newuser3"}
         };
     }
 

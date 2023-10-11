@@ -5,7 +5,9 @@
     <classes>
       <class name="testCase.TestUserManagement">
         <methods>
-          <include name="testAddUser" invocation-numbers="5"/>
+          <include name="testSearch" invocation-numbers="0"/>
+          <include name="testSearchByStatus" invocation-numbers="0"/>
+          <include name="testSearchByRole" invocation-numbers="0"/>
           <include name="setup"/>
         </methods>
       </class> <!-- testCase.TestUserManagement -->

@@ -1,113 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="27" passed="26" failed="1" skipped="0">
+<testng-results ignored="0" total="32" passed="29" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-11T22:35:15 NPT" name="Practice Suite" finished-at="2023-10-11T22:38:00 NPT" duration-ms="165788">
+  <suite started-at="2023-10-12T00:19:48 NPT" name="Practice Suite" finished-at="2023-10-12T00:23:33 NPT" duration-ms="225212">
     <groups>
     </groups>
-    <test started-at="2023-10-11T22:35:15 NPT" name="TL-001" finished-at="2023-10-11T22:35:30 NPT" duration-ms="15111">
+    <test started-at="2023-10-12T00:19:48 NPT" name="TL-005" finished-at="2023-10-12T00:20:02 NPT" duration-ms="14417">
       <class name="testCase.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestLogin@43301423]" started-at="2023-10-11T22:35:15 NPT" name="setup" finished-at="2023-10-11T22:35:26 NPT" duration-ms="11553" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestLogin@2f112965]" started-at="2023-10-12T00:19:48 NPT" name="setup" finished-at="2023-10-12T00:19:58 NPT" duration-ms="9944" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestLogin@43301423]" started-at="2023-10-11T22:35:26 NPT" name="verifyLogin" finished-at="2023-10-11T22:35:30 NPT" duration-ms="3542" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-      </class> <!-- testCase.TestLogin -->
-    </test> <!-- TL-001 -->
-    <test started-at="2023-10-11T22:35:30 NPT" name="TL-002" finished-at="2023-10-11T22:35:33 NPT" duration-ms="3452">
-      <class name="testCase.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestLogin@4690b489]" started-at="2023-10-11T22:35:30 NPT" name="setup" finished-at="2023-10-11T22:35:30 NPT" duration-ms="543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestLogin@4690b489]" started-at="2023-10-11T22:35:30 NPT" name="verifyLogin" finished-at="2023-10-11T22:35:33 NPT" duration-ms="2908" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-      </class> <!-- testCase.TestLogin -->
-    </test> <!-- TL-002 -->
-    <test started-at="2023-10-11T22:35:33 NPT" name="TL-003" finished-at="2023-10-11T22:35:37 NPT" duration-ms="3366">
-      <class name="testCase.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestLogin@3eb7fc54]" started-at="2023-10-11T22:35:33 NPT" name="setup" finished-at="2023-10-11T22:35:34 NPT" duration-ms="484" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestLogin@3eb7fc54]" started-at="2023-10-11T22:35:34 NPT" name="verifyLogin" finished-at="2023-10-11T22:35:37 NPT" duration-ms="2880" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-      </class> <!-- testCase.TestLogin -->
-    </test> <!-- TL-003 -->
-    <test started-at="2023-10-11T22:35:37 NPT" name="TL-004" finished-at="2023-10-11T22:35:41 NPT" duration-ms="4081">
-      <class name="testCase.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestLogin@460d0a57]" started-at="2023-10-11T22:35:37 NPT" name="setup" finished-at="2023-10-11T22:35:37 NPT" duration-ms="431" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestLogin@460d0a57]" started-at="2023-10-11T22:35:37 NPT" name="verifyLogin" finished-at="2023-10-11T22:35:41 NPT" duration-ms="3648" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mistake]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[mistake]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-      </class> <!-- testCase.TestLogin -->
-    </test> <!-- TL-004 -->
-    <test started-at="2023-10-11T22:35:41 NPT" name="TL-005" finished-at="2023-10-11T22:35:45 NPT" duration-ms="4514">
-      <class name="testCase.TestLogin">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestLogin@3aefe5e5]" started-at="2023-10-11T22:35:41 NPT" name="setup" finished-at="2023-10-11T22:35:41 NPT" duration-ms="434" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestLogin@3aefe5e5]" started-at="2023-10-11T22:35:41 NPT" name="verifyLogin" finished-at="2023-10-11T22:35:45 NPT" duration-ms="4079" status="PASS">
+        <test-method signature="verifyLogin(java.lang.String,java.lang.String)[pri:0, instance:testCase.TestLogin@2f112965]" started-at="2023-10-12T00:19:58 NPT" name="verifyLogin" finished-at="2023-10-12T00:20:02 NPT" duration-ms="4429" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -125,17 +29,17 @@
         </test-method> <!-- verifyLogin -->
       </class> <!-- testCase.TestLogin -->
     </test> <!-- TL-005 -->
-    <test started-at="2023-10-11T22:35:45 NPT" name="TL-006" finished-at="2023-10-11T22:38:00 NPT" duration-ms="135208">
+    <test started-at="2023-10-12T00:20:02 NPT" name="TL-006" finished-at="2023-10-12T00:23:33 NPT" duration-ms="210778">
       <class name="testCase.TestUserManagement">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:35:45 NPT" name="setup" finished-at="2023-10-11T22:35:46 NPT" duration-ms="884" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:20:02 NPT" name="setup" finished-at="2023-10-12T00:20:03 NPT" duration-ms="1029" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddUserCancel()[pri:0, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:35:46 NPT" name="testAddUserCancel" finished-at="2023-10-11T22:35:52 NPT" duration-ms="5787" status="PASS">
+        <test-method signature="testAddUserCancel()[pri:0, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:20:03 NPT" name="testAddUserCancel" finished-at="2023-10-12T00:20:09 NPT" duration-ms="6080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUserCancel -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:35:52 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:35:58 NPT" duration-ms="6577" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:20:09 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:20:19 NPT" duration-ms="9880" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -171,7 +75,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:35:58 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:36:05 NPT" duration-ms="6826" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:20:19 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:20:29 NPT" duration-ms="10092" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -207,7 +111,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:36:05 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:36:14 NPT" duration-ms="8398" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:20:29 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:20:40 NPT" duration-ms="11270" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -243,7 +147,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:36:14 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:36:22 NPT" duration-ms="8424" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:20:40 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:20:52 NPT" duration-ms="11477" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -279,7 +183,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:36:22 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:36:32 NPT" duration-ms="9628" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:20:52 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:21:03 NPT" duration-ms="11435" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -315,7 +219,79 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:36:32 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:36:36 NPT" duration-ms="4648" status="FAIL">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:21:03 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:21:15 NPT" duration-ms="11878" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Odis  Adalwin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[newuser2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:21:15 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:21:27 NPT" duration-ms="11682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Odis  Adalwin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Enabled]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[newuser2]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Testagain]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddUser -->
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:21:27 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:21:39 NPT" duration-ms="11784" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -348,81 +324,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=117.0.5938.150)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68d1aed11575cf27871af1fdb4350b87, clickElement {id=4BE7BAE9B510BA3DD6317327DFCB499D_element_1393}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50886}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50886/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (68d1aed11575cf27871af1fdb4350b87)] -> xpath: //div[@class='oxd-select-text-input']]] -> xpath: //*[@role='option']//*[contains(text(),'Admin')]]
-Session ID: 68d1aed11575cf27871af1fdb4350b87]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=117.0.5938.150)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68d1aed11575cf27871af1fdb4350b87, clickElement {id=4BE7BAE9B510BA3DD6317327DFCB499D_element_1393}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50886}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50886/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (68d1aed11575cf27871af1fdb4350b87)] -> xpath: //div[@class='oxd-select-text-input']]] -> xpath: //*[@role='option']//*[contains(text(),'Admin')]]
-Session ID: 68d1aed11575cf27871af1fdb4350b87
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
-at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
-at pageModal.UserManagement.populate(UserManagement.java:145)
-at testCase.TestUserManagement.testAddUser(TestUserManagement.java:24)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
-at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:36:36 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:36:48 NPT" duration-ms="11881" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:21:39 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:21:51 NPT" duration-ms="12033" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -458,11 +363,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:36:48 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:37:00 NPT" duration-ms="11798" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:21:51 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:22:02 NPT" duration-ms="11702" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Admin]]>
+                <![CDATA[ESS]]>
               </value>
             </param>
             <param index="1">
@@ -477,7 +382,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
             </param>
             <param index="3">
               <value>
-                <![CDATA[newuser2]]>
+                <![CDATA[newuser3]]>
               </value>
             </param>
             <param index="4">
@@ -494,11 +399,11 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:00 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-11T22:37:12 NPT" duration-ms="11846" status="PASS">
+        <test-method signature="testAddUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:02 NPT" name="testAddUser" data-provider="admin" finished-at="2023-10-12T00:22:15 NPT" duration-ms="12155" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Admin]]>
+                <![CDATA[ESS]]>
               </value>
             </param>
             <param index="1">
@@ -513,7 +418,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
             </param>
             <param index="3">
               <value>
-                <![CDATA[newuser2]]>
+                <![CDATA[newuser3]]>
               </value>
             </param>
             <param index="4">
@@ -530,7 +435,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddUser -->
-        <test-method signature="testSearchUser(java.lang.String)[pri:2, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:12 NPT" name="testSearchUser" data-provider="searchUser" finished-at="2023-10-11T22:37:16 NPT" duration-ms="4145" status="PASS">
+        <test-method signature="testSearchUser(java.lang.String)[pri:2, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:15 NPT" name="testSearchUser" data-provider="searchUser" finished-at="2023-10-12T00:22:19 NPT" duration-ms="4027" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -541,7 +446,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchUser -->
-        <test-method signature="testSearchUser(java.lang.String)[pri:2, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:16 NPT" name="testSearchUser" data-provider="searchUser" finished-at="2023-10-11T22:37:20 NPT" duration-ms="3931" status="PASS">
+        <test-method signature="testSearchUser(java.lang.String)[pri:2, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:19 NPT" name="testSearchUser" data-provider="searchUser" finished-at="2023-10-12T00:22:23 NPT" duration-ms="3934" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -552,7 +457,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchUser -->
-        <test-method signature="testSearchUser(java.lang.String)[pri:2, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:20 NPT" name="testSearchUser" data-provider="searchUser" finished-at="2023-10-11T22:37:24 NPT" duration-ms="3969" status="PASS">
+        <test-method signature="testSearchUser(java.lang.String)[pri:2, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:23 NPT" name="testSearchUser" data-provider="searchUser" finished-at="2023-10-12T00:22:26 NPT" duration-ms="3892" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -563,11 +468,92 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchUser -->
-        <test-method signature="resetSearch()[pri:3, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:24 NPT" name="resetSearch" finished-at="2023-10-11T22:37:28 NPT" duration-ms="3635" status="PASS">
+        <test-method signature="resetSearch()[pri:3, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:26 NPT" name="resetSearch" finished-at="2023-10-12T00:22:30 NPT" duration-ms="3892" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- resetSearch -->
-        <test-method signature="testSearchByRole(java.lang.String)[pri:4, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:28 NPT" name="testSearchByRole" data-provider="role" finished-at="2023-10-11T22:37:31 NPT" duration-ms="3727" status="PASS">
+        <test-method signature="testSearchByRole(java.lang.String)[pri:4, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:30 NPT" name="testSearchByRole" data-provider="role" finished-at="2023-10-12T00:22:34 NPT" duration-ms="3158" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='option']//*[contains(text(),'select')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=18792C02BA198B2B3A0F4EBC954B0EDC_element_1219, using=xpath, value=//*[@role='option']//*[contains(text(),'select')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='option']//*[contains(text(),'select')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=18792C02BA198B2B3A0F4EBC954B0EDC_element_1219, using=xpath, value=//*[@role='option']//*[contains(text(),'select')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
+at pageModal.UserManagement.searchByRole(UserManagement.java:91)
+at testCase.TestUserManagement.testSearchByRole(TestUserManagement.java:75)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByRole -->
+        <test-method signature="testSearchByRole(java.lang.String)[pri:4, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:34 NPT" name="testSearchByRole" data-provider="role" finished-at="2023-10-12T00:22:37 NPT" duration-ms="3392" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -578,7 +564,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByRole -->
-        <test-method signature="testSearchByRole(java.lang.String)[pri:4, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:31 NPT" name="testSearchByRole" data-provider="role" finished-at="2023-10-11T22:37:35 NPT" duration-ms="3934" status="PASS">
+        <test-method signature="testSearchByRole(java.lang.String)[pri:4, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:37 NPT" name="testSearchByRole" data-provider="role" finished-at="2023-10-12T00:22:41 NPT" duration-ms="4056" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -589,7 +575,88 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByRole -->
-        <test-method signature="testSearchByStatus(java.lang.String)[pri:5, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:35 NPT" name="testSearchByStatus" data-provider="status" finished-at="2023-10-11T22:37:39 NPT" duration-ms="4023" status="PASS">
+        <test-method signature="testSearchByStatus(java.lang.String)[pri:5, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:41 NPT" name="testSearchByStatus" data-provider="status" finished-at="2023-10-12T00:22:44 NPT" duration-ms="3385" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='option']//*[contains(text(),'select')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=FB1D3EA016B37F930CF0D4170330B7F8_element_1366, using=xpath, value=//*[@role='option']//*[contains(text(),'select')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='option']//*[contains(text(),'select')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=FB1D3EA016B37F930CF0D4170330B7F8_element_1366, using=xpath, value=//*[@role='option']//*[contains(text(),'select')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
+at pageModal.UserManagement.searchByStatus(UserManagement.java:97)
+at testCase.TestUserManagement.testSearchByStatus(TestUserManagement.java:92)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchByStatus -->
+        <test-method signature="testSearchByStatus(java.lang.String)[pri:5, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:44 NPT" name="testSearchByStatus" data-provider="status" finished-at="2023-10-12T00:22:48 NPT" duration-ms="3963" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -600,7 +667,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByStatus -->
-        <test-method signature="testSearchByStatus(java.lang.String)[pri:5, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:39 NPT" name="testSearchByStatus" data-provider="status" finished-at="2023-10-11T22:37:43 NPT" duration-ms="3858" status="PASS">
+        <test-method signature="testSearchByStatus(java.lang.String)[pri:5, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:48 NPT" name="testSearchByStatus" data-provider="status" finished-at="2023-10-12T00:22:52 NPT" duration-ms="4069" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -611,7 +678,98 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchByStatus -->
-        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:43 NPT" name="testSearch" data-provider="search" finished-at="2023-10-11T22:37:47 NPT" duration-ms="4324" status="PASS">
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:52 NPT" name="testSearch" data-provider="search" finished-at="2023-10-12T00:22:56 NPT" duration-ms="3405" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='option']//*[contains(text(),'select')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=25AB853DB5F448ED64159D03D7B0CE93_element_1507, using=xpath, value=//*[@role='option']//*[contains(text(),'select')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[@role='option']//*[contains(text(),'select')]"}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=25AB853DB5F448ED64159D03D7B0CE93_element_1507, using=xpath, value=//*[@role='option']//*[contains(text(),'select')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
+at pageModal.UserManagement.search(UserManagement.java:107)
+at testCase.TestUserManagement.testSearch(TestUserManagement.java:108)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:848)
+at org.testng.TestRunner.run(TestRunner.java:621)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+at org.testng.TestNG.runSuites(TestNG.java:1114)
+at org.testng.TestNG.run(TestNG.java:1082)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearch -->
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:22:56 NPT" name="testSearch" data-provider="search" finished-at="2023-10-12T00:23:00 NPT" duration-ms="4168" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -632,7 +790,7 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:47 NPT" name="testSearch" data-provider="search" finished-at="2023-10-11T22:37:52 NPT" duration-ms="4845" status="PASS">
+        <test-method signature="testSearch(java.lang.String,java.lang.String,java.lang.String)[pri:6, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:23:00 NPT" name="testSearch" data-provider="search" finished-at="2023-10-12T00:23:04 NPT" duration-ms="4274" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -653,28 +811,72 @@ at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearch -->
-        <test-method signature="deleteUser(java.lang.String)[pri:7, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:52 NPT" name="deleteUser" data-provider="userToDelete" finished-at="2023-10-11T22:37:56 NPT" duration-ms="4127" status="PASS">
+        <test-method signature="deleteUser(java.lang.String)[pri:7, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:23:04 NPT" name="deleteUser" data-provider="userToDelete" finished-at="2023-10-12T00:23:08 NPT" duration-ms="4012" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[newUser1]]>
+                <![CDATA[invaliduser]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
-        <test-method signature="deleteUser(java.lang.String)[pri:7, instance:testCase.TestUserManagement@5223e5ee]" started-at="2023-10-11T22:37:56 NPT" name="deleteUser" data-provider="userToDelete" finished-at="2023-10-11T22:38:00 NPT" duration-ms="3966" status="PASS">
+        <test-method signature="deleteUser(java.lang.String)[pri:7, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:23:08 NPT" name="deleteUser" data-provider="userToDelete" finished-at="2023-10-12T00:23:18 NPT" duration-ms="9325" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[newuser2]]>
+                <![CDATA[newuser3]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deleteUser -->
+        <test-method signature="deleteUserCancel(java.lang.String)[pri:7, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:23:18 NPT" name="deleteUserCancel" data-provider="userToDelete" finished-at="2023-10-12T00:23:21 NPT" duration-ms="3729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserCancel -->
+        <test-method signature="deleteUserCancel(java.lang.String)[pri:7, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:23:21 NPT" name="deleteUserCancel" data-provider="userToDelete" finished-at="2023-10-12T00:23:25 NPT" duration-ms="3778" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserCancel -->
+        <test-method signature="deleteUserCancelModal(java.lang.String)[pri:7, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:23:25 NPT" name="deleteUserCancelModal" data-provider="userToDelete" finished-at="2023-10-12T00:23:29 NPT" duration-ms="3865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[invaliduser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserCancelModal -->
+        <test-method signature="deleteUserCancelModal(java.lang.String)[pri:7, instance:testCase.TestUserManagement@36c88a32]" started-at="2023-10-12T00:23:29 NPT" name="deleteUserCancelModal" data-provider="userToDelete" finished-at="2023-10-12T00:23:33 NPT" duration-ms="3900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[newuser3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserCancelModal -->
       </class> <!-- testCase.TestUserManagement -->
     </test> <!-- TL-006 -->
   </suite> <!-- Practice Suite -->

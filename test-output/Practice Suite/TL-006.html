@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>TL-006</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>21/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>28/3/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed Oct 11 22:35:45 NPT 2023</td>
+<td>Started on:</td><td>Thu Oct 12 00:20:02 NPT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>135 seconds (135208 ms)</td>
+<tr><td>Total time:</td><td>210 seconds (210778 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,17 +76,16 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Test@1234, </td>
-<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+<td title='testCase.TestUserManagement.testSearchByStatus()'><b>testSearchByStatus</b><br>Test class: testCase.TestUserManagement<br>Parameters: </td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]&quot;}
   (Session info: chrome=117.0.5938.150)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68d1aed11575cf27871af1fdb4350b87, clickElement {id=4BE7BAE9B510BA3DD6317327DFCB499D_element_1393}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50886}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50886/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (68d1aed11575cf27871af1fdb4350b87)] -&gt; xpath: //div[@class=&apos;oxd-select-text-input&apos;]]] -&gt; xpath: //*[@role=&apos;option&apos;]//*[contains(text(),&apos;Admin&apos;)]]
-Session ID: 68d1aed11575cf27871af1fdb4350b87
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=FB1D3EA016B37F930CF0D4170330B7F8_element_1366, using=xpath, value=//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -94,27 +93,27 @@ Session ID: 68d1aed11575cf27871af1fdb4350b87
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
 	at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
-	at pageModal.UserManagement.populate(UserManagement.java:145)
-	at testCase.TestUserManagement.testAddUser(TestUserManagement.java:24)
+	at pageModal.UserManagement.searchByStatus(UserManagement.java:97)
+	at testCase.TestUserManagement.testSearchByStatus(TestUserManagement.java:92)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
-... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1250315597", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1250315597'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace935558503", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace935558503'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]&quot;}
   (Session info: chrome=117.0.5938.150)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [68d1aed11575cf27871af1fdb4350b87, clickElement {id=4BE7BAE9B510BA3DD6317327DFCB499D_element_1393}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50886}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50886/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (68d1aed11575cf27871af1fdb4350b87)] -&gt; xpath: //div[@class=&apos;oxd-select-text-input&apos;]]] -&gt; xpath: //*[@role=&apos;option&apos;]//*[contains(text(),&apos;Admin&apos;)]]
-Session ID: 68d1aed11575cf27871af1fdb4350b87
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=FB1D3EA016B37F930CF0D4170330B7F8_element_1366, using=xpath, value=//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
@@ -125,11 +124,13 @@ Session ID: 68d1aed11575cf27871af1fdb4350b87
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
 	at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
-	at pageModal.UserManagement.populate(UserManagement.java:145)
-	at testCase.TestUserManagement.testAddUser(TestUserManagement.java:24)
+	at pageModal.UserManagement.searchByStatus(UserManagement.java:97)
+	at testCase.TestUserManagement.testSearchByStatus(TestUserManagement.java:92)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -158,8 +159,180 @@ Session ID: 68d1aed11575cf27871af1fdb4350b87
 	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
 	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
 </pre></div></td>
-<td>4</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testSearch()'><b>testSearch</b><br>Test class: testCase.TestUserManagement<br>Parameters: , , </td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=25AB853DB5F448ED64159D03D7B0CE93_element_1507, using=xpath, value=//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+	at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
+	at pageModal.UserManagement.search(UserManagement.java:107)
+	at testCase.TestUserManagement.testSearch(TestUserManagement.java:108)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace418461526", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace418461526'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=25AB853DB5F448ED64159D03D7B0CE93_element_1507, using=xpath, value=//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+	at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
+	at pageModal.UserManagement.search(UserManagement.java:107)
+	at testCase.TestUserManagement.testSearch(TestUserManagement.java:108)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testSearchByRole()'><b>testSearchByRole</b><br>Test class: testCase.TestUserManagement<br>Parameters: </td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=18792C02BA198B2B3A0F4EBC954B0EDC_element_1219, using=xpath, value=//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+	at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
+	at pageModal.UserManagement.searchByRole(UserManagement.java:91)
+	at testCase.TestUserManagement.testSearchByRole(TestUserManagement.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace919541414", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace919541414'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]&quot;}
+  (Session info: chrome=117.0.5938.150)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22b7a0f5fde76af20f1e39f22da6041f, findChildElement {id=18792C02BA198B2B3A0F4EBC954B0EDC_element_1219, using=xpath, value=//*[@role=&apos;option&apos;]//*[contains(text(),&apos;select&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53665}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53665/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22b7a0f5fde76af20f1e39f22da6041f
+	at jdk.internal.reflect.GeneratedConstructorAccessor20.newInstance(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+	at pageModal.UserManagement.selectDropdown(UserManagement.java:207)
+	at pageModal.UserManagement.searchByRole(UserManagement.java:91)
+	at testCase.TestUserManagement.testSearchByRole(TestUserManagement.java:75)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:848)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
+	at org.testng.TestNG.runSuites(TestNG.java:1114)
+	at org.testng.TestNG.run(TestNG.java:1082)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+</pre></div></td>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -170,110 +343,145 @@ Session ID: 68d1aed11575cf27871af1fdb4350b87
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCase.TestUserManagement.testSearchByRole()'><b>testSearchByRole</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin</td>
-<td></td>
-<td>3</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testSearchByStatus()'><b>testSearchByStatus</b><br>Test class: testCase.TestUserManagement<br>Parameters: Disabled</td>
-<td></td>
-<td>3</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUserCancel()'><b>testAddUserCancel</b><br>Test class: testCase.TestUserManagement</td>
-<td></td>
-<td>5</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, , , , </td>
-<td></td>
-<td>8</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: , , , , , </td>
-<td></td>
-<td>6</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.resetSearch()'><b>resetSearch</b><br>Test class: testCase.TestUserManagement</td>
-<td></td>
-<td>3</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.deleteUser()'><b>deleteUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: newUser1</td>
-<td></td>
-<td>4</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, , , , , </td>
-<td></td>
-<td>6</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Test@1234, Test@123</td>
-<td></td>
-<td>11</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testSearch()'><b>testSearch</b><br>Test class: testCase.TestUserManagement<br>Parameters: admin, Admin, Enabled</td>
-<td></td>
-<td>4</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.deleteUser()'><b>deleteUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: newuser2</td>
-<td></td>
-<td>3</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Test@1234, Test@1234</td>
-<td></td>
-<td>11</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testSearchByStatus()'><b>testSearchByStatus</b><br>Test class: testCase.TestUserManagement<br>Parameters: Enabled</td>
-<td></td>
-<td>4</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, , </td>
+<td title='testCase.TestUserManagement.deleteUser()'><b>deleteUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: newuser3</td>
 <td></td>
 <td>9</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
-<tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Test@1234, Test@1234</td>
-<td></td>
-<td>11</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 <tr>
 <td title='testCase.TestUserManagement.testSearchUser()'><b>testSearchUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: </td>
 <td></td>
 <td>4</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 <tr>
-<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, , , </td>
+<td title='testCase.TestUserManagement.deleteUserCancelModal()'><b>deleteUserCancelModal</b><br>Test class: testCase.TestUserManagement<br>Parameters: newuser3</td>
 <td></td>
-<td>8</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testSearchByRole()'><b>testSearchByRole</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin</td>
+<td></td>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Test@1234, </td>
+<td></td>
+<td>11</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testSearchByStatus()'><b>testSearchByStatus</b><br>Test class: testCase.TestUserManagement<br>Parameters: Enabled</td>
+<td></td>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testSearch()'><b>testSearch</b><br>Test class: testCase.TestUserManagement<br>Parameters: admin, Admin, Enabled</td>
+<td></td>
+<td>4</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUserCancel()'><b>testAddUserCancel</b><br>Test class: testCase.TestUserManagement</td>
+<td></td>
+<td>6</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: ESS, Odis  Adalwin, Enabled, newuser3, Test@1234, Test@1234</td>
+<td></td>
+<td>11</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 <tr>
 <td title='testCase.TestUserManagement.testSearchUser()'><b>testSearchUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: invaliduser</td>
 <td></td>
 <td>3</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 <tr>
 <td title='testCase.TestUserManagement.testSearchUser()'><b>testSearchUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: newuser2</td>
 <td></td>
 <td>3</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, , , , </td>
+<td></td>
+<td>11</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.deleteUser()'><b>deleteUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: invaliduser</td>
+<td></td>
+<td>4</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Testagain, </td>
+<td></td>
+<td>11</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Test@1234, Test@123</td>
+<td></td>
+<td>12</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 <tr>
 <td title='testCase.TestUserManagement.testSearchByRole()'><b>testSearchByRole</b><br>Test class: testCase.TestUserManagement<br>Parameters: ESS</td>
 <td></td>
+<td>4</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: ESS, Odis  Adalwin, Enabled, newuser3, Test@1234, Test@1234</td>
+<td></td>
+<td>12</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.deleteUserCancel()'><b>deleteUserCancel</b><br>Test class: testCase.TestUserManagement<br>Parameters: invaliduser</td>
+<td></td>
 <td>3</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, , , </td>
+<td></td>
+<td>11</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.deleteUserCancel()'><b>deleteUserCancel</b><br>Test class: testCase.TestUserManagement<br>Parameters: newuser3</td>
+<td></td>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, Test, </td>
+<td></td>
+<td>11</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, Odis  Adalwin, Enabled, newuser2, , </td>
+<td></td>
+<td>11</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.deleteUserCancelModal()'><b>deleteUserCancelModal</b><br>Test class: testCase.TestUserManagement<br>Parameters: invaliduser</td>
+<td></td>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.resetSearch()'><b>resetSearch</b><br>Test class: testCase.TestUserManagement</td>
+<td></td>
+<td>3</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: , , , , , </td>
+<td></td>
+<td>9</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testSearchByStatus()'><b>testSearchByStatus</b><br>Test class: testCase.TestUserManagement<br>Parameters: Disabled</td>
+<td></td>
+<td>4</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 <tr>
 <td title='testCase.TestUserManagement.testSearch()'><b>testSearch</b><br>Test class: testCase.TestUserManagement<br>Parameters: user307, ESS, Disabled</td>
 <td></td>
 <td>4</td>
-<td>testCase.TestUserManagement@5223e5ee</td></tr>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
+<tr>
+<td title='testCase.TestUserManagement.testAddUser()'><b>testAddUser</b><br>Test class: testCase.TestUserManagement<br>Parameters: Admin, , , , , </td>
+<td></td>
+<td>10</td>
+<td>testCase.TestUserManagement@36c88a32</td></tr>
 </table><p>
 </body>
 </html>

@@ -845,3 +845,319 @@ Session ID: 22a7c667fd1f00dad0a48d119c5f6c6a
 22:31:46.296 [main] ERROR - No records found
 22:31:50.292 [main] ERROR - No records found
 22:31:54.269 [main] ERROR - No records found
+22:35:30.160 [main] ERROR - All fields empty
+22:35:33.643 [main] ERROR - Username Required
+22:35:37.019 [main] ERROR - Password Required
+22:35:41.112 [main] ERROR - Invalid credentials
+22:35:45.626 [main] INFO  - Login successful
+22:35:52.301 [main] INFO  - Add user cancel success
+22:35:58.837 [main] ERROR - Required
+22:35:58.846 [main] ERROR - Required
+22:35:58.861 [main] ERROR - Required
+22:35:58.863 [main] ERROR - Required
+22:35:58.878 [main] ERROR - Required
+22:35:58.885 [main] ERROR - Required
+22:35:58.885 [main] INFO  - ****** EOF *******
+22:36:05.662 [main] ERROR - Required
+22:36:05.677 [main] ERROR - Required
+22:36:05.694 [main] ERROR - Required
+22:36:05.711 [main] ERROR - Required
+22:36:05.711 [main] ERROR - Required
+22:36:05.711 [main] INFO  - ****** EOF *******
+22:36:14.076 [main] ERROR - Required
+22:36:14.076 [main] ERROR - Required
+22:36:14.092 [main] ERROR - Required
+22:36:14.109 [main] ERROR - Required
+22:36:14.109 [main] INFO  - ****** EOF *******
+22:36:22.508 [main] ERROR - Required
+22:36:22.508 [main] ERROR - Required
+22:36:22.532 [main] ERROR - Required
+22:36:22.533 [main] INFO  - ****** EOF *******
+22:36:32.161 [main] INFO  - Add user success.
+22:36:48.702 [main] ERROR - Passwords do not match
+22:36:48.702 [main] INFO  - ****** EOF *******
+22:37:00.500 [main] INFO  - Add user success.
+22:37:12.347 [main] INFO  - Add user success.
+22:37:16.492 [main] INFO  - Total items in a list: 50
+22:37:20.423 [main] ERROR - No records found
+22:37:24.392 [main] ERROR - No records found
+22:37:28.030 [main] INFO  - Reset success
+22:37:31.758 [main] INFO  - ***** Showing records for Admin *****
+22:37:31.758 [main] INFO  - Total items in a list 17
+22:37:35.692 [main] INFO  - ***** Showing records for ESS *****
+22:37:35.692 [main] INFO  - Total items in a list 36
+22:37:39.715 [main] INFO  - **** Showing records for Enabled ****
+22:37:39.716 [main] INFO  - Total items  in a list 50
+22:37:43.574 [main] ERROR - No records found
+22:37:47.898 [main] INFO  - ***** Showing records for admin:Admin:Enabled *****
+22:37:47.898 [main] INFO  - Total items in a list 1
+22:37:52.742 [main] ERROR - No records found
+22:37:56.870 [main] ERROR - No records found
+22:38:00.837 [main] ERROR - No records found
+22:42:37.561 [main] ERROR - All fields empty
+22:42:41.082 [main] ERROR - Username Required
+22:42:44.429 [main] ERROR - Password Required
+22:42:48.572 [main] ERROR - Invalid credentials
+22:42:53.098 [main] INFO  - Login successful
+22:42:59.671 [main] INFO  - Add user cancel success
+22:43:06.365 [main] ERROR - Required
+22:43:06.380 [main] ERROR - Required
+22:43:06.380 [main] ERROR - Required
+22:43:06.395 [main] ERROR - Required
+22:43:06.413 [main] ERROR - Required
+22:43:06.424 [main] ERROR - Required
+22:43:06.424 [main] INFO  - ****** EOF *******
+22:43:13.011 [main] ERROR - Required
+22:43:13.011 [main] ERROR - Required
+22:43:13.027 [main] ERROR - Required
+22:43:13.045 [main] ERROR - Required
+22:43:13.045 [main] ERROR - Required
+22:43:13.045 [main] INFO  - ****** EOF *******
+22:43:21.321 [main] ERROR - Required
+22:43:21.326 [main] ERROR - Required
+22:43:21.342 [main] ERROR - Required
+22:43:21.342 [main] ERROR - Required
+22:43:21.342 [main] INFO  - ****** EOF *******
+22:43:29.902 [main] ERROR - Required
+22:43:29.907 [main] ERROR - Required
+22:43:29.926 [main] ERROR - Required
+22:43:29.926 [main] INFO  - ****** EOF *******
+22:43:39.352 [main] INFO  - Add user success.
+22:43:50.023 [main] INFO  - Add user success.
+22:44:01.817 [main] ERROR - Passwords do not match
+22:44:01.817 [main] INFO  - ****** EOF *******
+22:44:14.065 [main] INFO  - Add user success.
+22:44:25.929 [main] INFO  - Add user success.
+22:44:29.792 [main] INFO  - Total items in a list: 50
+22:44:33.728 [main] ERROR - No records found
+22:44:37.644 [main] ERROR - No records found
+22:44:41.380 [main] INFO  - Reset success
+22:44:45.105 [main] INFO  - ***** Showing records for Admin *****
+22:44:45.105 [main] INFO  - Total items in a list 18
+22:44:48.965 [main] INFO  - ***** Showing records for ESS *****
+22:44:48.966 [main] INFO  - Total items in a list 36
+22:44:52.996 [main] INFO  - **** Showing records for Enabled ****
+22:44:52.996 [main] INFO  - Total items  in a list 50
+22:44:56.990 [main] ERROR - No records found
+22:45:01.197 [main] INFO  - ***** Showing records for admin:Admin:Enabled *****
+22:45:01.197 [main] INFO  - Total items in a list 1
+22:45:05.621 [main] ERROR - No records found
+22:45:09.521 [main] ERROR - No records found
+23:30:40.380 [main] INFO  - Login successful
+23:30:47.334 [main] INFO  - Add user cancel success
+23:30:59.814 [main] INFO  - Add user success.
+23:31:04.147 [main] ERROR - No records found
+23:31:08.108 [main] ERROR - No records found
+23:31:12.273 [main] INFO  - Close Modal
+23:31:12.988 [main] INFO  - Cancel Delete User
+23:31:17.446 [main] INFO  - Delete user success
+23:33:25.928 [main] INFO  - Login successful
+23:37:08.353 [main] INFO  - Login successful
+23:39:57.115 [main] INFO  - Add user success.
+23:43:23.014 [main] INFO  - Login successful
+23:43:37.159 [main] ERROR - Already exists
+23:43:37.159 [main] INFO  - ****** EOF *******
+23:44:02.818 [main] ERROR - Already exists
+23:44:02.824 [main] ERROR - Should have at least 7 characters
+23:44:02.824 [main] INFO  - ****** EOF *******
+23:44:30.897 [main] ERROR - Already exists
+23:44:30.902 [main] ERROR - Your password must contain minimum 1 number
+23:44:30.902 [main] INFO  - ****** EOF *******
+23:44:54.647 [main] ERROR - Already exists
+23:44:54.647 [main] INFO  - ****** EOF *******
+23:46:00.840 [main] ERROR - Already exists
+23:46:00.851 [main] ERROR - Passwords do not match
+23:46:00.851 [main] INFO  - ****** EOF *******
+23:46:24.051 [main] ERROR - Already exists
+23:46:24.051 [main] INFO  - ****** EOF *******
+23:46:42.608 [main] ERROR - Already exists
+23:46:42.608 [main] INFO  - ****** EOF *******
+23:48:15.073 [main] INFO  - Login successful
+23:48:29.332 [main] ERROR - Already exists
+23:48:29.332 [main] INFO  - ****** EOF *******
+23:48:41.536 [main] ERROR - Already exists
+23:48:41.552 [main] ERROR - Should have at least 7 characters
+23:48:41.552 [main] INFO  - ****** EOF *******
+23:48:53.387 [main] ERROR - Already exists
+23:48:53.396 [main] ERROR - Your password must contain minimum 1 number
+23:48:53.396 [main] INFO  - ****** EOF *******
+23:49:05.387 [main] ERROR - Already exists
+23:49:05.387 [main] INFO  - ****** EOF *******
+23:49:17.942 [main] ERROR - Already exists
+23:49:17.958 [main] ERROR - Passwords do not match
+23:49:17.958 [main] INFO  - ****** EOF *******
+23:49:30.130 [main] ERROR - Already exists
+23:49:30.130 [main] INFO  - ****** EOF *******
+23:49:42.121 [main] ERROR - Already exists
+23:49:42.121 [main] INFO  - ****** EOF *******
+23:50:24.860 [main] INFO  - Login successful
+23:50:38.912 [main] ERROR - Already exists
+23:50:38.912 [main] INFO  - ****** EOF *******
+23:50:50.852 [main] ERROR - Already exists
+23:50:50.861 [main] ERROR - Should have at least 7 characters
+23:50:50.861 [main] INFO  - ****** EOF *******
+23:51:02.700 [main] ERROR - Already exists
+23:51:02.709 [main] ERROR - Your password must contain minimum 1 number
+23:51:02.709 [main] INFO  - ****** EOF *******
+23:51:15.056 [main] ERROR - Already exists
+23:51:15.056 [main] INFO  - ****** EOF *******
+23:51:26.995 [main] ERROR - Already exists
+23:51:27.020 [main] ERROR - Passwords do not match
+23:51:27.020 [main] INFO  - ****** EOF *******
+23:51:39.048 [main] INFO  - Add user success.
+23:51:51.397 [main] ERROR - Already exists
+23:51:51.397 [main] INFO  - ****** EOF *******
+23:53:06.883 [main] INFO  - Login successful
+23:53:22.260 [main] ERROR - Already exists
+23:53:22.260 [main] INFO  - ****** EOL *******
+23:53:36.024 [main] ERROR - Invalid
+23:53:36.028 [main] ERROR - Already exists
+23:53:36.043 [main] ERROR - Should have at least 7 characters
+23:53:36.043 [main] INFO  - ****** EOL *******
+23:53:49.388 [main] ERROR - Already exists
+23:53:49.403 [main] ERROR - Your password must contain minimum 1 number
+23:53:49.403 [main] INFO  - ****** EOL *******
+23:54:02.781 [main] ERROR - Already exists
+23:54:02.781 [main] INFO  - ****** EOL *******
+23:54:16.433 [main] ERROR - Already exists
+23:54:16.442 [main] ERROR - Passwords do not match
+23:54:16.442 [main] INFO  - ****** EOL *******
+23:54:29.996 [main] ERROR - Already exists
+23:54:29.996 [main] INFO  - ****** EOL *******
+23:59:23.110 [main] INFO  - Login successful
+23:59:30.641 [main] INFO  - Add user cancel success
+23:59:40.317 [main] ERROR - Required
+23:59:40.317 [main] ERROR - Required
+23:59:40.333 [main] ERROR - Required
+23:59:40.347 [main] ERROR - Required
+23:59:40.357 [main] ERROR - Required
+23:59:40.366 [main] ERROR - Required
+23:59:40.366 [main] INFO  - ****** EOL *******
+23:59:50.203 [main] ERROR - Required
+23:59:50.203 [main] ERROR - Required
+23:59:50.219 [main] ERROR - Required
+23:59:50.234 [main] ERROR - Required
+23:59:50.234 [main] ERROR - Required
+23:59:50.234 [main] INFO  - ****** EOL *******
+00:00:02.048 [main] ERROR - Required
+00:00:02.058 [main] ERROR - Required
+00:00:02.068 [main] ERROR - Required
+00:00:02.076 [main] ERROR - Required
+00:00:02.076 [main] INFO  - ****** EOL *******
+00:00:14.459 [main] ERROR - Required
+00:00:14.474 [main] ERROR - Required
+00:00:14.488 [main] ERROR - Required
+00:00:14.488 [main] INFO  - ****** EOL *******
+00:00:26.828 [main] ERROR - Required
+00:00:26.828 [main] ERROR - Required
+00:00:26.828 [main] INFO  - ****** EOL *******
+00:00:38.428 [main] ERROR - Should have at least 7 characters
+00:00:38.428 [main] ERROR - Required
+00:00:38.428 [main] INFO  - ****** EOL *******
+00:00:50.164 [main] ERROR - Your password must contain minimum 1 number
+00:00:50.173 [main] ERROR - Required
+00:00:50.173 [main] INFO  - ****** EOL *******
+00:01:01.805 [main] ERROR - Required
+00:01:01.805 [main] INFO  - ****** EOL *******
+00:01:14.037 [main] ERROR - Passwords do not match
+00:01:14.037 [main] INFO  - ****** EOL *******
+00:01:26.103 [main] INFO  - Add user success.
+00:01:37.913 [main] ERROR - Already exists
+00:01:37.913 [main] INFO  - ****** EOL *******
+00:01:41.751 [main] INFO  - Total items in a list: 39
+00:01:45.699 [main] ERROR - No records found
+00:01:49.514 [main] ERROR - No records found
+00:01:53.297 [main] INFO  - Reset success
+00:01:57.105 [main] INFO  - ***** Showing records for Admin *****
+00:01:57.105 [main] INFO  - Total items in a list 9
+00:02:01.002 [main] INFO  - ***** Showing records for ESS *****
+00:02:01.002 [main] INFO  - Total items in a list 30
+00:02:05.023 [main] INFO  - **** Showing records for Enabled ****
+00:02:05.023 [main] INFO  - Total items  in a list 39
+00:02:08.988 [main] ERROR - No records found
+00:02:13.343 [main] INFO  - ***** Showing records for admin:Admin:Enabled *****
+00:02:13.343 [main] INFO  - Total items in a list 1
+00:02:17.666 [main] ERROR - No records found
+00:02:22.306 [main] INFO  - Close Modal
+00:02:22.525 [main] INFO  - Cancel Delete User
+00:02:27.554 [main] ERROR - Delete user failed
+00:02:31.525 [main] ERROR - No records found
+00:11:40.602 [main] INFO  - Login successful
+00:11:47.342 [main] INFO  - Add user cancel success
+00:11:56.770 [main] ERROR - Required
+00:11:56.780 [main] ERROR - Required
+00:11:56.788 [main] ERROR - Required
+00:11:56.799 [main] ERROR - Required
+00:11:56.807 [main] ERROR - Required
+00:11:56.813 [main] ERROR - Required
+00:11:56.813 [main] INFO  - ****** EOL *******
+00:12:06.520 [main] ERROR - Required
+00:12:06.539 [main] ERROR - Required
+00:12:06.551 [main] ERROR - Required
+00:12:06.561 [main] ERROR - Required
+00:12:06.571 [main] ERROR - Required
+00:12:06.571 [main] INFO  - ****** EOL *******
+00:12:17.901 [main] ERROR - Required
+00:12:17.917 [main] ERROR - Required
+00:12:17.931 [main] ERROR - Required
+00:12:17.941 [main] ERROR - Required
+00:12:17.941 [main] INFO  - ****** EOL *******
+00:12:29.324 [main] ERROR - Required
+00:12:29.339 [main] ERROR - Required
+00:12:29.339 [main] ERROR - Required
+00:12:29.339 [main] INFO  - ****** EOL *******
+00:12:40.871 [main] ERROR - Required
+00:12:40.887 [main] ERROR - Required
+00:12:40.887 [main] INFO  - ****** EOL *******
+00:12:52.499 [main] ERROR - Should have at least 7 characters
+00:12:52.499 [main] ERROR - Required
+00:12:52.499 [main] INFO  - ****** EOL *******
+00:13:04.213 [main] ERROR - Your password must contain minimum 1 number
+00:13:04.229 [main] ERROR - Required
+00:13:04.229 [main] INFO  - ****** EOL *******
+00:13:16.112 [main] ERROR - Required
+00:13:16.112 [main] INFO  - ****** EOL *******
+00:13:27.705 [main] ERROR - Passwords do not match
+00:13:27.705 [main] INFO  - ****** EOL *******
+00:13:39.479 [main] ERROR - Already exists
+00:13:39.479 [main] INFO  - ****** EOL *******
+00:13:51.337 [main] ERROR - Already exists
+00:13:51.338 [main] INFO  - ****** EOL *******
+00:13:55.105 [main] INFO  - Total items in a list: 39
+00:13:59.056 [main] ERROR - No records found
+00:14:02.906 [main] ERROR - No records found
+00:14:06.805 [main] INFO  - Reset success
+00:14:10.764 [main] INFO  - ***** Showing records for Admin *****
+00:14:10.764 [main] INFO  - Total items in a list 9
+00:14:14.843 [main] INFO  - ***** Showing records for ESS *****
+00:14:14.843 [main] INFO  - Total items in a list 30
+00:14:18.932 [main] INFO  - **** Showing records for Enabled ****
+00:14:18.932 [main] INFO  - Total items  in a list 39
+00:14:22.854 [main] ERROR - No records found
+00:14:27.180 [main] INFO  - ***** Showing records for admin:Admin:Enabled *****
+00:14:27.180 [main] INFO  - Total items in a list 1
+00:14:31.417 [main] ERROR - No records found
+00:15:00.929 [main] ERROR - No records found
+00:15:10.542 [main] INFO  - Delete user success
+00:15:42.149 [main] ERROR - No records found
+00:15:46.102 [main] ERROR - No records found
+00:16:15.531 [main] ERROR - No records found
+00:16:19.345 [main] ERROR - No records found
+00:19:26.479 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d74510f7f193fe9e242a63f39374ec23, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53610}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53610/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d74510f7f193fe9e242a63f39374ec23
+00:19:26.614 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d74510f7f193fe9e242a63f39374ec23, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53610}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53610/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d74510f7f193fe9e242a63f39374ec23

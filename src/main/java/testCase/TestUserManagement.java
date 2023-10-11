@@ -22,7 +22,6 @@ public class TestUserManagement extends BaseClass {
         UserManagement userMg = new UserManagement(driver, wait);
         userMg.addAdmin();
         userMg.populate(role, empName, status, username, password, confirmPassword);
-        Thread.sleep(2000);
         userMg.save();
 
         List<WebElement> errors = userMg.getErrors();
@@ -30,7 +29,7 @@ public class TestUserManagement extends BaseClass {
             for (WebElement el : errors) {
                 logger.error(el.getText());
             }
-            logger.info("****** EOF *******");
+            logger.info("****** EOL *******");
             return;
         }
 
@@ -82,7 +81,7 @@ public class TestUserManagement extends BaseClass {
 
         logger.info(String.format("***** Showing records for %s *****", role));
 
-        logger.info(String.format("Total items in a list %d",  list.size()));
+        logger.info(String.format("Total items in a list %d", list.size()));
     }
 
     @Test(priority = 5, dataProvider = "status", dataProviderClass = AdminData.class)
@@ -98,7 +97,7 @@ public class TestUserManagement extends BaseClass {
         }
 
         logger.info(String.format("**** Showing records for %s ****", status));
-        logger.info(String.format("Total items  in a list %d",  list.size()));
+        logger.info(String.format("Total items  in a list %d", list.size()));
     }
 
     @Test(priority = 6, dataProvider = "search", dataProviderClass = AdminData.class)
@@ -114,12 +113,12 @@ public class TestUserManagement extends BaseClass {
         }
 
         logger.info(String.format("***** Showing records for %s:%s:%s *****", username, role, status));
-        logger.info(String.format("Total items in a list %d",  list.size()));
+        logger.info(String.format("Total items in a list %d", list.size()));
     }
 
 
     @Test(priority = 7, dataProvider = "userToDelete", dataProviderClass = AdminData.class)
-    public void deleteUser(String username) {
+    public void modalCancel(String username) throws InterruptedException {
         List<WebElement> list;
         UserManagement userMg = new UserManagement(driver, wait);
 
@@ -134,11 +133,38 @@ public class TestUserManagement extends BaseClass {
         userMg.deleteUser();
         userMg.closeModal();
         logger.info("Close Modal");
+    }
+
+    @Test(priority = 8, dataProvider = "userToDelete", dataProviderClass = AdminData.class)
+    public void deleteUserCancel(String username) throws InterruptedException {
+        List<WebElement> list;
+        UserManagement userMg = new UserManagement(driver, wait);
+
+        userMg.searchByUser(username);
+        list = userMg.getList();
+        if (list.isEmpty()) {
+            logger.error("No records found");
+            return;
+        }
 
         // Test modCancelBtn
         userMg.deleteUser();
         userMg.modCancelBtn();
         logger.info("Cancel Delete User");
+    }
+
+
+    @Test(priority = 9, dataProvider = "userToDelete", dataProviderClass = AdminData.class)
+    public void deleteUser(String username) throws InterruptedException {
+        List<WebElement> list;
+        UserManagement userMg = new UserManagement(driver, wait);
+
+        userMg.searchByUser(username);
+        list = userMg.getList();
+        if (list.isEmpty()) {
+            logger.error("No records found");
+            return;
+        }
 
         // Delete user
         userMg.deleteUser();
