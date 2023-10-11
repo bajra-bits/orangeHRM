@@ -515,3 +515,333 @@ Session ID: b8b133f897fe9eb3b8b040a8effe99c1
 12:47:17.253 [main] INFO  - Close Modal
 12:47:17.508 [main] INFO  - Cancel Delete User
 12:47:21.945 [main] INFO  - Delete user success
+12:53:06.563 [main] ERROR - All fields empty
+12:53:11.001 [main] ERROR - Username Required
+12:53:15.357 [main] ERROR - Password Required
+12:53:20.663 [main] ERROR - Invalid credentials
+12:53:26.419 [main] INFO  - Login successful
+12:53:34.610 [main] INFO  - Add user cancel success
+12:53:43.339 [main] INFO  - Add user success.
+12:53:48.720 [main] INFO  - Total items in a list: 40
+12:53:52.967 [main] INFO  - Total items in a list: 1
+12:53:57.533 [main] ERROR - No records found
+12:54:01.998 [main] INFO  - Reset success
+12:54:06.555 [main] INFO  - ****************** Showing records for Admin **********************
+12:54:06.555 [main] INFO  - Total items in a list 40
+12:54:11.061 [main] INFO  - ****************** Showing records for ESS **********************
+12:54:11.061 [main] INFO  - Total items in a list 40
+12:54:15.281 [main] INFO  - ****************** Showing records for Enabled **********************
+12:54:15.281 [main] INFO  - Total items  in a list 40
+12:54:19.464 [main] ERROR - No records found
+12:54:24.044 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+12:54:24.044 [main] INFO  - Total items in a list 1
+12:54:28.946 [main] ERROR - No records found
+12:54:48.025 [main] ERROR - No records found
+15:04:14.921 [main] ERROR - All fields empty
+15:04:21.414 [main] ERROR - Username Required
+15:04:26.518 [main] ERROR - Password Required
+15:04:33.832 [main] ERROR - Invalid credentials
+15:04:43.196 [main] INFO  - Login successful
+15:05:54.506 [main] ERROR - Should be at least 5 characters
+15:06:01.561 [main] INFO  - Total items in a list: 48
+15:06:07.319 [main] ERROR - No records found
+15:06:11.998 [main] INFO  - Total items in a list: 48
+15:06:55.190 [main] INFO  - ****************** Showing records for Admin **********************
+15:06:55.194 [main] INFO  - Total items in a list 48
+15:07:00.809 [main] INFO  - ****************** Showing records for ESS **********************
+15:07:00.809 [main] INFO  - Total items in a list 48
+15:07:08.280 [main] INFO  - ****************** Showing records for Enabled **********************
+15:07:08.280 [main] INFO  - Total items  in a list 48
+15:08:03.145 [main] ERROR - No records found
+15:08:23.239 [main] INFO  - Close Modal
+15:08:23.996 [main] INFO  - Cancel Delete User
+15:08:28.551 [main] INFO  - Delete user success
+15:09:30.986 [main] ERROR - All fields empty
+15:09:36.180 [main] ERROR - Username Required
+15:09:41.743 [main] ERROR - Password Required
+15:09:53.419 [main] ERROR - Invalid credentials
+15:10:00.352 [main] INFO  - Login successful
+15:10:22.785 [main] INFO  - Add user cancel success
+15:10:38.123 [main] ERROR - Should be at least 5 characters
+15:10:46.745 [main] INFO  - Total items in a list: 49
+15:10:54.788 [main] INFO  - Total items in a list: 1
+15:11:00.209 [main] INFO  - Total items in a list: 49
+15:11:07.647 [main] INFO  - Reset success
+15:11:20.746 [main] INFO  - ****************** Showing records for Admin **********************
+15:11:20.746 [main] INFO  - Total items in a list 13
+15:11:27.554 [main] INFO  - ****************** Showing records for ESS **********************
+15:11:27.554 [main] INFO  - Total items in a list 49
+15:11:33.087 [main] INFO  - ****************** Showing records for Enabled **********************
+15:11:33.087 [main] INFO  - Total items  in a list 50
+15:11:41.803 [main] ERROR - No records found
+15:12:00.973 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+15:12:00.973 [main] INFO  - Total items in a list 1
+15:12:07.180 [main] ERROR - No records found
+15:12:13.090 [main] ERROR - No records found
+15:13:54.410 [main] ERROR - All fields empty
+15:14:01.964 [main] ERROR - Username Required
+15:14:08.290 [main] ERROR - Password Required
+15:14:17.394 [main] ERROR - Invalid credentials
+15:14:26.748 [main] INFO  - Login successful
+15:14:35.537 [main] INFO  - Add user cancel success
+15:15:43.361 [main] INFO  - Total items in a list: 50
+15:16:15.298 [main] ERROR - All fields empty
+15:16:21.512 [main] ERROR - Username Required
+15:16:26.495 [main] ERROR - Password Required
+15:16:39.363 [main] ERROR - Invalid credentials
+15:17:03.682 [main] INFO  - Login successful
+15:17:16.736 [main] INFO  - Add user cancel success
+15:17:37.280 [main] ERROR - Already exists
+15:17:43.384 [main] INFO  - Total items in a list: 50
+15:17:50.870 [main] INFO  - Total items in a list: 50
+15:17:55.270 [main] ERROR - No records found
+15:18:02.473 [main] INFO  - Reset success
+15:18:09.302 [main] INFO  - ****************** Showing records for Admin **********************
+15:18:09.302 [main] INFO  - Total items in a list 13
+15:18:14.732 [main] INFO  - ****************** Showing records for ESS **********************
+15:18:14.732 [main] INFO  - Total items in a list 50
+15:18:20.285 [main] INFO  - ****************** Showing records for Enabled **********************
+15:18:20.288 [main] INFO  - Total items  in a list 50
+15:18:27.167 [main] ERROR - No records found
+15:18:36.842 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+15:18:36.843 [main] INFO  - Total items in a list 1
+15:18:48.664 [main] ERROR - No records found
+15:19:42.232 [main] ERROR - No records found
+15:35:18.819 [main] ERROR - All fields empty
+15:36:07.320 [main] ERROR - Password Required
+15:36:13.166 [main] ERROR - Invalid credentials
+15:36:19.737 [main] INFO  - Login successful
+15:36:36.741 [main] INFO  - Add user cancel success
+15:36:53.477 [main] ERROR - Invalid
+15:37:41.229 [main] INFO  - Total items in a list: 4
+15:37:51.015 [main] ERROR - No records found
+15:38:03.228 [main] ERROR - No records found
+15:38:34.471 [main] INFO  - ****************** Showing records for Admin **********************
+15:38:34.471 [main] INFO  - Total items in a list 3
+15:38:38.705 [main] INFO  - ****************** Showing records for ESS **********************
+15:38:38.705 [main] INFO  - Total items in a list 1
+15:38:43.922 [main] INFO  - ****************** Showing records for Enabled **********************
+15:38:43.923 [main] INFO  - Total items  in a list 4
+15:38:54.162 [main] ERROR - No records found
+15:39:21.875 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+15:39:21.876 [main] INFO  - Total items in a list 1
+15:39:29.876 [main] ERROR - No records found
+22:08:36.357 [main] ERROR - All fields empty
+22:08:40.890 [main] ERROR - Username Required
+22:08:45.274 [main] ERROR - Password Required
+22:08:50.331 [main] ERROR - Invalid credentials
+22:08:55.786 [main] INFO  - Login successful
+22:09:02.652 [main] INFO  - Add user cancel success
+22:09:11.175 [main] INFO  - Add user success.
+22:09:15.104 [main] INFO  - Total items in a list: 45
+22:09:19.122 [main] ERROR - No records found
+22:09:23.055 [main] ERROR - No records found
+22:09:26.698 [main] INFO  - Reset success
+22:09:30.602 [main] INFO  - ****************** Showing records for Admin **********************
+22:09:30.602 [main] INFO  - Total items in a list 13
+22:09:34.903 [main] INFO  - ****************** Showing records for ESS **********************
+22:09:34.903 [main] INFO  - Total items in a list 32
+22:09:38.821 [main] INFO  - ****************** Showing records for Enabled **********************
+22:09:38.822 [main] INFO  - Total items  in a list 45
+22:09:42.770 [main] ERROR - No records found
+22:09:47.064 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+22:09:47.064 [main] INFO  - Total items in a list 1
+22:09:51.699 [main] ERROR - No records found
+22:09:55.645 [main] ERROR - No records found
+22:09:59.486 [main] ERROR - No records found
+22:12:06.696 [main] ERROR - All fields empty
+22:12:11.121 [main] ERROR - Username Required
+22:12:15.518 [main] ERROR - Password Required
+22:12:20.654 [main] ERROR - Invalid credentials
+22:12:26.105 [main] INFO  - Login successful
+22:12:33.079 [main] INFO  - Add user cancel success
+22:12:42.368 [main] INFO  - Add user success.
+22:12:46.424 [main] INFO  - Total items in a list: 47
+22:12:50.331 [main] ERROR - No records found
+22:12:54.263 [main] ERROR - No records found
+22:12:58.027 [main] INFO  - Reset success
+22:13:02.032 [main] INFO  - ****************** Showing records for Admin **********************
+22:13:02.032 [main] INFO  - Total items in a list 47
+22:13:06.260 [main] INFO  - ****************** Showing records for ESS **********************
+22:13:06.260 [main] INFO  - Total items in a list 33
+22:13:10.369 [main] INFO  - ****************** Showing records for Enabled **********************
+22:13:10.369 [main] INFO  - Total items  in a list 47
+22:13:14.476 [main] ERROR - No records found
+22:13:18.841 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+22:13:18.841 [main] INFO  - Total items in a list 1
+22:13:23.325 [main] ERROR - No records found
+22:13:27.224 [main] ERROR - No records found
+22:13:31.190 [main] ERROR - No records found
+22:15:11.203 [main] ERROR - All fields empty
+22:15:16.696 [main] ERROR - Username Required
+22:15:21.151 [main] ERROR - Password Required
+22:15:26.302 [main] ERROR - Invalid credentials
+22:15:31.806 [main] INFO  - Login successful
+22:15:38.598 [main] INFO  - Add user cancel success
+22:15:45.133 [main] ERROR - Required
+22:15:45.133 [main] ERROR - Required
+22:15:45.149 [main] ERROR - Required
+22:15:45.167 [main] ERROR - Required
+22:15:45.181 [main] ERROR - Required
+22:15:45.181 [main] ERROR - Required
+22:15:54.080 [main] INFO  - Add user success.
+22:15:58.188 [main] INFO  - Total items in a list: 48
+22:16:02.344 [main] ERROR - No records found
+22:16:06.383 [main] ERROR - No records found
+22:16:10.106 [main] INFO  - Reset success
+22:16:14.071 [main] INFO  - ****************** Showing records for Admin **********************
+22:16:14.071 [main] INFO  - Total items in a list 15
+22:16:18.056 [main] INFO  - ****************** Showing records for ESS **********************
+22:16:18.056 [main] INFO  - Total items in a list 33
+22:16:22.002 [main] INFO  - ****************** Showing records for Enabled **********************
+22:16:22.002 [main] INFO  - Total items  in a list 48
+22:16:25.956 [main] ERROR - No records found
+22:16:30.055 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+22:16:30.055 [main] INFO  - Total items in a list 1
+22:16:34.337 [main] ERROR - No records found
+22:16:38.203 [main] ERROR - No records found
+22:16:42.103 [main] ERROR - No records found
+22:19:12.616 [main] ERROR - All fields empty
+22:19:17.118 [main] ERROR - Username Required
+22:19:21.547 [main] ERROR - Password Required
+22:19:26.787 [main] ERROR - Invalid credentials
+22:19:32.301 [main] INFO  - Login successful
+22:19:38.956 [main] INFO  - Add user cancel success
+22:19:45.452 [main] ERROR - Required
+22:19:45.468 [main] ERROR - Required
+22:19:45.483 [main] ERROR - Required
+22:19:45.485 [main] ERROR - Required
+22:19:45.502 [main] ERROR - Required
+22:19:45.519 [main] ERROR - Required
+22:19:52.136 [main] ERROR - Required
+22:19:52.151 [main] ERROR - Required
+22:19:52.167 [main] ERROR - Required
+22:19:52.185 [main] ERROR - Required
+22:19:52.202 [main] ERROR - Required
+22:20:00.732 [main] ERROR - Required
+22:20:00.749 [main] ERROR - Required
+22:20:00.749 [main] ERROR - Required
+22:20:00.773 [main] ERROR - Required
+22:20:11.472 [main] ERROR - Required
+22:20:11.480 [main] ERROR - Required
+22:20:11.490 [main] ERROR - Required
+22:20:20.261 [main] INFO  - Add user success.
+22:20:29.076 [main] INFO  - Add user success.
+22:20:37.757 [main] INFO  - Add user success.
+22:20:46.523 [main] ERROR - Passwords do not match
+22:20:55.688 [main] INFO  - Add user success.
+22:21:04.686 [main] INFO  - Add user success.
+22:21:08.883 [main] INFO  - Total items in a list: 49
+22:21:12.967 [main] ERROR - No records found
+22:21:17.016 [main] ERROR - No records found
+22:21:21.035 [main] INFO  - Reset success
+22:21:25.622 [main] INFO  - ****************** Showing records for Admin **********************
+22:21:25.622 [main] INFO  - Total items in a list 15
+22:21:29.719 [main] INFO  - ****************** Showing records for ESS **********************
+22:21:29.719 [main] INFO  - Total items in a list 34
+22:21:33.709 [main] INFO  - ****************** Showing records for Enabled **********************
+22:21:33.709 [main] INFO  - Total items  in a list 49
+22:21:37.747 [main] ERROR - No records found
+22:21:42.057 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+22:21:42.057 [main] INFO  - Total items in a list 1
+22:21:46.476 [main] ERROR - No records found
+22:22:15.053 [main] ERROR - No records found
+22:27:39.158 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22a7c667fd1f00dad0a48d119c5f6c6a, maximizeCurrentWindow {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53638/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a7c667fd1f00dad0a48d119c5f6c6a
+22:27:39.302 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22a7c667fd1f00dad0a48d119c5f6c6a, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53638/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a7c667fd1f00dad0a48d119c5f6c6a
+22:27:39.336 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22a7c667fd1f00dad0a48d119c5f6c6a, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53638/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a7c667fd1f00dad0a48d119c5f6c6a
+22:27:39.381 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22a7c667fd1f00dad0a48d119c5f6c6a, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53638/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a7c667fd1f00dad0a48d119c5f6c6a
+22:27:39.432 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22a7c667fd1f00dad0a48d119c5f6c6a, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53638/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a7c667fd1f00dad0a48d119c5f6c6a
+22:27:39.458 [main] ERROR - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=117.0.5938.150)
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [22a7c667fd1f00dad0a48d119c5f6c6a, get {url=https://opensource-demo.orangehrmlive.com/web/index.php/auth/login}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.150, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\REJAN~1.BAJ\AppDat...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53638}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53638/devtoo..., se:cdpVersion: 117.0.5938.150, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 22a7c667fd1f00dad0a48d119c5f6c6a
+22:29:10.102 [main] ERROR - All fields empty
+22:29:14.552 [main] ERROR - Username Required
+22:29:18.951 [main] ERROR - Password Required
+22:29:24.136 [main] ERROR - Invalid credentials
+22:29:29.662 [main] INFO  - Login successful
+22:29:36.527 [main] INFO  - Add user cancel success
+22:29:43.087 [main] ERROR - Required
+22:29:43.101 [main] ERROR - Required
+22:29:43.118 [main] ERROR - Required
+22:29:43.118 [main] ERROR - Required
+22:29:43.136 [main] ERROR - Required
+22:29:43.152 [main] ERROR - Required
+22:29:49.817 [main] ERROR - Required
+22:29:49.828 [main] ERROR - Required
+22:29:49.839 [main] ERROR - Required
+22:29:49.850 [main] ERROR - Required
+22:29:49.850 [main] ERROR - Required
+22:29:58.403 [main] ERROR - Required
+22:29:58.412 [main] ERROR - Required
+22:29:58.424 [main] ERROR - Required
+22:29:58.434 [main] ERROR - Required
+22:30:07.012 [main] ERROR - Required
+22:30:07.014 [main] ERROR - Required
+22:30:07.032 [main] ERROR - Required
+22:30:17.911 [main] INFO  - Add user success.
+22:30:29.041 [main] INFO  - Add user success.
+22:30:40.599 [main] ERROR - Passwords do not match
+22:30:52.355 [main] INFO  - Add user success.
+22:31:04.222 [main] INFO  - Add user success.
+22:31:08.330 [main] INFO  - Total items in a list: 50
+22:31:12.298 [main] ERROR - No records found
+22:31:16.266 [main] ERROR - No records found
+22:31:19.982 [main] INFO  - Reset success
+22:31:24.687 [main] INFO  - ****************** Showing records for Admin **********************
+22:31:24.687 [main] INFO  - Total items in a list 17
+22:31:28.844 [main] INFO  - ****************** Showing records for ESS **********************
+22:31:28.844 [main] INFO  - Total items in a list 34
+22:31:32.901 [main] INFO  - ****************** Showing records for Enabled **********************
+22:31:32.901 [main] INFO  - Total items  in a list 50
+22:31:36.962 [main] ERROR - No records found
+22:31:41.677 [main] INFO  - ********** Showing records for admin:Admin:Enabled ***************
+22:31:41.677 [main] INFO  - Total items in a list 1
+22:31:46.296 [main] ERROR - No records found
+22:31:50.292 [main] ERROR - No records found
+22:31:54.269 [main] ERROR - No records found

@@ -38,7 +38,7 @@ public class Login extends BaseModal {
     }
 
     public List<WebElement> getError() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(2000);
         return driver.findElements(error);
     }
 

@@ -140,10 +140,9 @@ public class UserManagement extends Dashboard {
         Utils.elementToBeClickable(wait, addBtn).click();
     }
 
-    public void populate(String role, String empName, String status, String username, String password, String confirmPassword) {
+    public void populate(String role, String empName, String status, String username, String password, String confirmPassword) throws Exception {
         if (!role.isEmpty()) {
             selectDropdown(selectEl, 0, Utils.getOptionValue(role));
-
         }
 
         if (!empName.isEmpty()) {
@@ -166,14 +165,17 @@ public class UserManagement extends Dashboard {
 
         if (!username.isEmpty()) {
             inputFields(this.username, username);
+            Thread.sleep(1000);
         }
 
         if (!password.isEmpty()) {
             inputFields(this.password, password);
+            Thread.sleep(1000);
         }
 
         if (!confirmPassword.isEmpty()) {
             inputFields(this.confirmPassword, confirmPassword);
+            Thread.sleep(1000);
         }
     }
 

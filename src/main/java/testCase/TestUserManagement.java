@@ -22,7 +22,7 @@ public class TestUserManagement extends BaseClass {
         UserManagement userMg = new UserManagement(driver, wait);
         userMg.addAdmin();
         userMg.populate(role, empName, status, username, password, confirmPassword);
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         userMg.save();
 
         List<WebElement> errors = userMg.getErrors();
@@ -30,6 +30,7 @@ public class TestUserManagement extends BaseClass {
             for (WebElement el : errors) {
                 logger.error(el.getText());
             }
+            logger.info("****** EOF *******");
             return;
         }
 
@@ -79,7 +80,7 @@ public class TestUserManagement extends BaseClass {
             return;
         }
 
-        logger.info(String.format("****************** Showing records for %s **********************", role));
+        logger.info(String.format("***** Showing records for %s *****", role));
 
         logger.info(String.format("Total items in a list %d",  list.size()));
     }
@@ -96,7 +97,7 @@ public class TestUserManagement extends BaseClass {
             return;
         }
 
-        logger.info(String.format("****************** Showing records for %s **********************", status));
+        logger.info(String.format("**** Showing records for %s ****", status));
         logger.info(String.format("Total items  in a list %d",  list.size()));
     }
 
@@ -112,7 +113,7 @@ public class TestUserManagement extends BaseClass {
             return;
         }
 
-        logger.info(String.format("********** Showing records for %s:%s:%s ***************", username, role, status));
+        logger.info(String.format("***** Showing records for %s:%s:%s *****", username, role, status));
         logger.info(String.format("Total items in a list %d",  list.size()));
     }
 
@@ -133,8 +134,6 @@ public class TestUserManagement extends BaseClass {
         userMg.deleteUser();
         userMg.closeModal();
         logger.info("Close Modal");
-
-
 
         // Test modCancelBtn
         userMg.deleteUser();
